@@ -82,3 +82,29 @@
   .btn-warning:hover {
     background-color: #e65c00;
   }
+/* Motive */
+.img-motive{
+  position: relative;
+}
+.img-motive-1{
+  position:absolute;
+ top: -20px;
+  left: 50px;
+  z-index: 0;
+  width: 400px;
+  height:600px;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(5, 48, 5)
+}
+.footerlist{
+    color: yellow;
+}
+.hr{
+    color: white;
+}
+.img{
+    color: white;
+}
