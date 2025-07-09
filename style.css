@@ -1,0 +1,14 @@
+.footer{
+    background-color: #89c74a;
+}
+i{
+    color: #89c74a;
+    font-size: 26px;
+    width: 26px;
+    margin: auto;
+}
+.icon-image{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
