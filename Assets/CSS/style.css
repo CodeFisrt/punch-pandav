@@ -56,4 +56,29 @@
   #partnerCarousel img:hover {
     transform: scale(1.05);
   }
-
+  .volunteer-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .volunteer-bg {
+    background-image: url('.../images/ngo-7.jpg') no-repeat center center/cover;
+    z-index: 1;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+  .volunteer-section .container {
+    z-index: 3;
+    color: white;
+  }
+  .btn-warning {
+    background-color: #ff6600;
+    border: none;
+  }
+  .btn-warning:hover {
+    background-color: #e65c00;
+  }
