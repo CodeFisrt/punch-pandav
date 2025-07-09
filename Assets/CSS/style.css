@@ -28,4 +28,32 @@
     .navbar-brand span {
       font-weight: bold;
     }
-  
+    /*second section*/
+  .transition-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .transition-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-color: #ff6600;
+  }
+
+  @media (min-width: 768px) {
+    .row.justify-content-center .col-md-4 {
+      flex: 0 0 auto;
+      width: 33.3333%;
+    }
+  }
+
+/*partner section */
+  #partnerCarousel img {
+    max-height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+
+  #partnerCarousel img:hover {
+    transform: scale(1.05);
+  }
+
