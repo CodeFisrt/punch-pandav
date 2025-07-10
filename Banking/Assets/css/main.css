@@ -13,3 +13,9 @@
     line-height: 35px;
     transition:all ease-in;
 }
+
+.carousel-item img {
+      margin-top: 10px;
+      height: 450px;
+      width: auto;
+}
