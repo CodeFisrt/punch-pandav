@@ -1,11 +1,5 @@
 
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-    }
-
-    .navbar {
+    .khopa_menu {
       background-color: rgba(0, 0, 0, 0.4) !important;
     }
 
@@ -25,9 +19,7 @@
       z-index: 10;
     }
 
-    .navbar-brand span {
-      font-weight: bold;
-    }
+   
     /*second section*/
   .transition-box {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -79,20 +71,21 @@
     z-index: 3;
     color: white;
   }
-  .navbar .common_btn {
-    background-color: #ff6600;
-    border: none;
-  }
-  .main-content .common_btn{
-    background-color: #ff6600;
-    border: none;
-  }
+  .common_btn {
+
+  background-color: #f77f00  !important;
+  color: #000 !important;
+}
+.common_btn:hover {
+  background-color: #f77f00 !important;
+  color: #fff !important;
+  transform: scale(1.05) !important;
+}
+
   .main-content .h2{
     color: #ff6600;
   }
-  .navbar .common_btn:hover {
-    background-color: #e65c00;
-  }
+  
 /* Motive */
 .img-motive{
   position: relative;
@@ -129,3 +122,4 @@
    background-color: #ff6600;
 
 }
+
