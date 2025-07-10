@@ -106,6 +106,7 @@
   z-index: 0;
   width: 400px;
   height: 500px;
+  
 }
 
 /* footer */
@@ -122,8 +123,8 @@
 }
 
 /* middle content */
-.hero {
-  color: rgb(5, 48, 5);
+.Khopa_movements {
+  color:rgb(5, 48, 5);
 }
 
 /* newletter */
@@ -135,10 +136,16 @@
 
 }
 
-/* krishna */
+/* journy*/
 .img {
   background-image: url('../../images/NGO-3.jpg');
-  height: 600PX;
+  height: 500PX;
 }
-
-
+.Journey_height{
+  height: 570px;
+}
+.proprty_new:hover
+{
+  background-color:#f77f00;
+  border-radius: 1rem;
+}
