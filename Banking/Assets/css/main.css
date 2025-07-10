@@ -15,7 +15,7 @@
 .loginBtn {
     background: blue;
 }
-
+new
 .sidebar .nav-link.active {
     background-color: #8B0000;
     color: white;
@@ -154,7 +154,6 @@ a.list-group-item:hover {
 }
 
 .stat-label {
-<<<<<<< HEAD
   font-size: 1rem;
   margin-top: 5px;
 } 
@@ -249,8 +248,7 @@ p{
     .news-box p {
       font-size: 0.95rem;
     }
-=======
     font-size: 1rem;
     margin-top: 5px;
 }
->>>>>>> 8739c874fad5aaa4d5fe5ce63e25a7f025bedd06
+
