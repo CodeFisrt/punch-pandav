@@ -1,89 +1,3 @@
- .carousel-item img {
-  margin-top: 10px;
-  height: 450px;
-  ;
-  width: auto;
-
-
-}
-.loginBtn{
-  background:blue;
-}
-
-.sidebar .nav-link.active {
-  background-color: #8B0000;
-  color: white;
-
-
-}
-
-.loan-card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  height: 250px;
-}
-
-.loan-rate {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #8B0000;
-}
-
-.apply-btn {
-  background-color: blue;
-  color: white;
-}
-
-.apply-btn:hover {
-  background-color: #a30000;
-}
-
-href:hover {
-  background-color: blue;
-}
-
-a.list-group-item:hover {
-  background-color: lightblue;
-  color: #0056b3;
-}
-
-.justify-content-end {
-  justify-content: flex-end !important;
-}
-
-<style>.d-flex {
-  display: flex !important;
-}
-
-
-.stats-section {
-  background: linear-gradient(90deg, #8b0044, #a40057);
-  color: white;
-  padding: 40px 0;
-}
-
-.stat-card {
-  text-align: center;
-}
-
-.stat-card i {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.stat-value {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-.stat-label {
-  font-size: 1rem;
-  margin-top: 5px;
-}
-
 .carousel-item img {
   margin-top: 10px;
   height: 450px;
@@ -157,8 +71,95 @@ a.list-group-item:hover {
 .stat-label {
   font-size: 1rem;
   margin-top: 5px;
-} *
+} 
 
 
+.footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 40px 0;
+}
 
-   
+ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+p{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.icon{
+  color: rgb(0, 0, 0);
+}
+.image img{
+  height: 45vh;
+  width: 45vh;
+  margin-top: -40px;
+  margin-left: 7px;
+  margin-bottom: -30px;
+}
+.icon{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+}
+.last{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  background-color: rgb(255, 255, 255);
+}
+.photo1 img{
+  height: 50px;
+  width: 250px;
+  margin-left: 10px;
+}
+.photo2 img{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+
+.digital-box {
+      background-color: #f8f9fa;
+      padding: 30px;
+    }
+    .digital-box h5 {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .digital-icon {
+      font-size: 2rem;
+      color: #800040;
+    }
+    .quick-links a {
+      display: block;
+      margin-bottom: 10px;
+      color: #000;
+      text-decoration: none;
+    }
+    .quick-links a:hover {
+      color: #c00040;
+      text-decoration: underline;
+    }
+    .news-box {
+      background-color: #800040;
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .news-box h5 {
+      border-bottom: 1px solid #ffffff50;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .news-box p {
+      font-size: 0.95rem;
+    }
