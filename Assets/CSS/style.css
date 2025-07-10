@@ -64,7 +64,7 @@
     z-index: 1;
   }
   .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(40, 37, 40, 0.6);
     z-index: 2;
   }
   .volunteer-section .container {
@@ -82,21 +82,22 @@
   transform: scale(1.05) !important;
 }
 
-  .main-content .h2{
+  .main-content .h{
     color: #ff6600;
   }
   
 /* Motive */
 .img-motive{
   position: relative;
+  
 }
 .img-motive-1{
   position:absolute;
- top: -20px;
+  top: -50px;
   left: 50px;
   z-index: 0;
   width: 400px;
-  height:600px;
+  height:500px;
 }
 
 /* footer */
