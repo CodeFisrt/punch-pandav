@@ -1,25 +1,89 @@
-.header-area {
-    height: 100px;
+ .carousel-item img {
+  margin-top: 10px;
+  height: 450px;
+  ;
+  width: auto;
+
+
+}
+.
+.loginBtn{
+  background:blue;
 }
 
-.btn-round {
-    background-image: -webkit-linear-gradient(rgb(51, 51, 125), rgb(176, 176, 220));
-    border: none;
+.sidebar .nav-link.active {
+  background-color: #8B0000;
+  color: white;
+
+
 }
 
-.btn-round:hover {
-    font-size: 10px;
-    line-height: 35px;
-    transition: all ease-in;
+.loan-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 250px;
 }
 
-.carousel-item img {
-<<<<<<< HEAD
-      margin-top: 10px;
-      height: 450px;
-      width: auto;
+.loan-rate {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #8B0000;
 }
 
+.apply-btn {
+  background-color: blue;
+  color: white;
+}
+
+.apply-btn:hover {
+  background-color: #a30000;
+}
+
+href:hover {
+  background-color: blue;
+}
+
+a.list-group-item:hover {
+  background-color: lightblue;
+  color: #0056b3;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+<style>.d-flex {
+  display: flex !important;
+}
+
+
+.stats-section {
+  background: linear-gradient(90deg, #8b0044, #a40057);
+  color: white;
+  padding: 40px 0;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card i {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 1rem;
+  margin-top: 5px;
+}
 
 .carousel-item img {
   margin-top: 10px;
@@ -31,128 +95,71 @@
 }
 
 .sidebar .nav-link.active {
-      background-color: #8B0000;
-      color: white;
-      
-
-    }
-    .loan-card {
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-      height: 250px; 
-    }
-    .loan-rate {
-      font-size: 2rem;
-      font-weight: bold;
-      color: #8B0000;
-    }
-    .apply-btn {
-      background-color: blue;
-      color: white;
-    }
-    .apply-btn:hover {
-      background-color: #a30000;
-    }
-    href:hover{
-      background-color: blue;
-    }
-    a.list-group-item:hover {
-  background-color: lightblue; 
-  color: #0056b3;            
-}
+  background-color: #8B0000;
+  color: white;
 
 
-.stats-section {
-=======
-    margin-top: 10px;
-    height: 450px;
-    width: auto;
-}
-
-.sidebar .nav-link.active {
-    background-color: #8B0000;
-    color: white;
 }
 
 .loan-card {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 250px;
 }
 
 .loan-rate {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #8B0000;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #8B0000;
 }
 
 .apply-btn {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 
 .apply-btn:hover {
-    background-color: #a30000;
+  background-color: #a30000;
 }
 
 href:hover {
-    background-color: blue;
+  background-color: blue;
 }
 
 a.list-group-item:hover {
-    background-color: lightblue;
-    color: #0056b3;
+  background-color: lightblue;
+  color: #0056b3;
 }
 
+
 .stats-section {
-    background: linear-gradient(90deg, #8b0044, #a40057);
-    color: white;
-    padding: 40px 0;
+  background: linear-gradient(90deg, #8b0044, #a40057);
+  color: white;
+  padding: 40px 0;
 }
 
 .stat-card {
-    text-align: center;
+  text-align: center;
 }
 
 .stat-card i {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    display: block;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .stat-value {
-    font-size: 1.8rem;
-    font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .stat-label {
-    font-size: 1rem;
-    margin-top: 5px;
-}
+  font-size: 1rem;
+  margin-top: 5px;
+} *
 
-    .stats-section {
->>>>>>> c72b827daf0d5632d743a37629b5b78a9601e0b3
-      background: linear-gradient(90deg, #8b0044, #a40057);
-      color: white;
-      padding: 40px 0;
-    }
-    .stat-card {
-      text-align: center;
-    }
-    .stat-card i {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      display: block;
-    }
-    .stat-value {
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
-    .stat-label {
-      font-size: 1rem;
-      margin-top: 5px;
-    }
+
+
+   
