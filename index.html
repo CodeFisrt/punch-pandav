@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GROCA GROCERY MART</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="Img/faviconImg.png" type="image/x-icon">
     <!-- css link -->
      <link rel="stylesheet" href="style.css">
      <!-- bootstrap link -->
@@ -13,6 +15,129 @@
 
 </head>
 <body>
+    <!-- Header -->
+     <section>
+        <div class="container mt-3 mb-3">
+     <div class="header-wrapper position-relative d-block">
+        
+        <header class="header gap-3 w-100">
+
+            <!-- left header logo -->
+            <h1 class="header-heading me-auto justify-content-start">
+                <a href="" class="d-inline-flex justify-content-start">
+                    <img src="Img/logo.webp" alt="HeaderLogo" class="h-auto w-auto">
+                </a>
+            </h1>
+           
+            <!-- header center menu item -->
+            <div class="header-inline-menu ms-0 d-block">
+                <div class="row d-block">
+                    <nav class="d-flex align-item-center position-relative">
+                        <ul class="list-unstyled position-relative p-0 m-0 fs-6">
+                            <li class="text-menu position-relative p-0 d-inline-flex my-0 mx-3">
+                                <a href="" class="text-decoration-none">
+                                    <span class="position-relative text-dark fw-bold">Home</span>
+                                </a>
+                            </li>
+                            <li class="position-relative p-0 d-inline-flex my-0 mx-3" >
+                               <a href="" class="text-decoration-none">
+                                    <span class="position-relative text-dark fw-bold">Shop</span>
+                                </a> 
+                            </li>
+                            <li class="position-relative p-0 d-inline-flex my-0 mx-3">
+                                <a href="" class="text-decoration-none dropdown-toggle text-dark">
+                                    <span class="position-relative text-dark fw-bold">Best Sellers</span>
+                                    <!-- <i class="fa-solid fa-circle-chevron-down text-dark bg-white m-1"></i> -->
+                                </a>
+                            </li>
+                            <!-- here dropdown sub-menu of best seller menu (remaining)-->
+                             <!-- <div class="sub-menu-block">
+
+                             </div> -->
+
+                            <li class="position-relative p-0 d-inline-flex my-0 mx-3">
+                                <a href="" class="text-decoration-none">
+                                    <span class="position-relative text-dark fw-bold">Deal Of The Day </span>
+                                </a>
+                            </li>
+                            <li class="position-relative p-0 d-inline-flex my-0 mx-3">
+                                <a href="" class="text-decoration-none">
+                                    <span class="position-relative text-dark fw-bold">Pages</span>
+                                </a>
+                            </li>
+                            <li class="position-relative p-0 d-inline-flex my-0 mx-3">
+                                <a href="" class="text-decoration-none">
+                                    <span class="position-relative text-dark fw-bold">Contact Us</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Header icons right side-->
+            <div class="header-icon d-flex">
+                <a href="" class="align-item-center justify-content-center text-dark mx-3">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <a href="" class="align-item-center justify-content-center text-dark mx-3">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="" class="align-item-center justify-content-center text-dark mx-3">
+                   <i class="fa-solid fa-heart"></i>
+                </a>
+
+            </div>
+          
+        </header>
+        <div class="header-search-wrapper d-flex align-item-center pb-3 mx-0 my-3">
+            <!-- All Categories left side-->
+            <div class="slider-with-nav w-50 h-50 border border-secondary">
+                <div class="nav-slider-section px-3 py-2 w-100 position-relative">
+                    <div class="toggle-btn d-block">
+                        <button class="fs-6 border border-0  bg-white">All Categories</button>
+                    </div>
+                    <div class="categories-menu position-absolute w-100 left-0 invisible">
+                        <nav class="slider-navigation position-relative d-block">
+                            <ul class="d-block m-0 p-0 list-unstyled"> 
+                                <li class="border-bottom">
+                                    <a href="" class="text-decoration-none text-dark">Fruits</a>
+                                </li>
+                                <li class="border-bottom">
+                                    <a href="" class="text-decoration-none text-dark">Vegetables</a>
+                                </li>
+                                <li class="border-bottom">
+                                    <a href="" class="text-decoration-none text-dark">Flours</a>
+                                </li>
+                                <li class="border-bottom">
+                                    <a href="" class="text-decoration-none text-dark">Cookies</a>
+                                </li>
+                                <li class="border-bottom">
+                                    <a href="" class="text-decoration-none text-dark">Meat</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- SerachBar right side -->
+             <div class="search-modal-form w-100 position-relative ms-3">
+                <form action="" class="w-100 position-relative ms-3 mt-0 d-block">
+                    <div class="field d-flex position-relative w-100">
+                        <input type="search" value="Search" class="search-input top-50 left-50 h-75 w-100  p-2 border border-1">
+                        <div class="search-btn d-block">
+                            <!-- <label for="field-label" class="top-50 left-50">Search</label> -->
+                            <button class="searchbtn search-icon d-flex end-0 top-50 h-100 w-100 border border-0">
+                                <i class="fa-solid fa-magnifying-glass text-white p-3"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+             </div>
+        </div>
+     </div>
+     </div>
+     </section>
     <!-- Footer -->
      <section>
         <div class="container">
@@ -25,7 +150,7 @@
                                 <li class="py-5 w-100">
                                     <div class="support-block-cart d-flex gap-3 align-item-center">
                                         <div class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-truck"></i>
+                                            <i class="fa-solid fa-truck footer-icon"></i>
                                         </div>
                                         <div class="support-block-card_nfo pt-0 text-align-start">
                                             <h3 class="mt-0 text-white fw-bold fs-3">free shipping</h3>
@@ -39,7 +164,7 @@
                                 <li class="py-5 w-100">
                                     <div class="support-block-cart d-flex gap-3 align-item-center">
                                         <div class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-phone"></i>
+                                            <i class="fa-solid fa-phone footer-icon"></i>
                                         </div>
                                         <div class="support-block-card_nfo pt-0 text-align-start">
                                             <h3 class="mt-0 text-white fw-bold fs-3">Helpline</h3>
@@ -53,7 +178,7 @@
                                 <li class="py-5 w-100">
                                     <div class="support-block-cart d-flex gap-3 align-item-center">
                                         <div class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-headphones-simple"></i>
+                                            <i class="fa-solid fa-headphones-simple footer-icon"></i>
                                         </div>
                                         <div class="support-block-card_nfo pt-0 text-align-start">
                                             <h3 class="mt-0 text-white fw-bold fs-3">24x7 support</h3>
@@ -67,7 +192,7 @@
                                 <li class="py-5 w-100">
                                     <div class="support-block-cart d-flex gap-3 align-item-center">
                                         <div class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-right-left"></i>
+                                            <i class="fa-solid fa-right-left footer-icon"></i>
                                         </div>
                                         <div class="support-block-card_nfo pt-0 text-align-start">
                                             <h3 class="mt-0 text-white fw-bold fs-3">returns</h3>
@@ -85,9 +210,9 @@
         </div>
      </section>
      <!-- footer -->
-      <footer class="banner-footer footer position-relative">
-        <div class="banner_media">
-            <img src="Img/footerimg.webp" alt="">
+      <footer class="banner-footer footer position-relative border-top-0 pt-5 pb-0 ">
+        <div class="banner_media position-static">
+            <img src="Img/footerimg.webp" alt="footerbgimg">
         </div>
         <div class="footer-content-top">
 
@@ -96,7 +221,7 @@
 
         </div>
 
-      </footer>
+      </footer> 
      <!-- script link -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
