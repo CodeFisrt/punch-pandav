@@ -6,6 +6,13 @@
     <title>Adonstreet</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="assets/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- <h1>adonstreet</h1> -->
@@ -94,21 +101,109 @@
     <!-- home section start here -->
     <section class="home-sec">
       <div class="container-fluid px-0 main-container">
-        <div class="row main-row position-relative">
-          <div class="col main-img-wrapper position-relative px-0">
-            <img src="img/main-bg-img.jpg" alt="main-bg-img" class="main-img" />
+        <div
+          id="carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/billboardimg.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/wall-img.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/digitalscreen.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="img/vehicleimg.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/Carousel 1.jpg" class="d-block w-100" alt="..." />
+            </div>
           </div>
-          <div class="mask opacity-50 bg-dark position-absolute"></div>
-          <div
-            class="home-content position-absolute top-50 z-3 text-center text-white"
-          >
-            <h1 class="">“Turn Every Street into a Stage for Your Brand.”</h1>
-            <p class="">Affordable outdoor marketing tailored for your city.</p>
+        </div>
+      </div>
+    </section>
+    <!-- service section start here -->
+    <section class="services"></section>
+    <!-- footer section start here -->
+    <section class="footer-sec">
+      <div class="container-fluid">
+        <div class="row bg-dark">
+          <div class="col d-flex p-4">
+            <div class="col-md-4 me-2">
+              <div class="descp border border-3 border-light rounded-3  p-4">
+                <img src="img/logo.svg" alt="logo" class="mb-2" />
+                <p class="">
+                  AdOnStreets delivers smart, street-level advertising solutions
+                  that connect brands with real audiences. From LED vans to
+                  billboards, we help businesses stand out. With years of
+                  experience, we're on a mission to be Pune’s go-to outdoor
+                  marketing agency.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 me-2">
+              <div class="p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fa-solid fa-phone me-3"></i>
+                  <p>+91 XXXXXXXXXX</p>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fa-solid fa-envelope me-3"></i>
+                  <a href="" class="text-decoration-none text-white"
+                    >contact@example.com / support@example.com</a
+                  >
+                </div>
+
+                <div class="d-flex flex-column align-items-start mb-3">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot me-3"></i>
+                    <p>Corporate office :</p>
+                  </div>
+                  <p class="ms-4">
+                    Office No. 402, 6th Floor, Elite Tower, near Landmark
+                    Hotel,Opposite City Parade Ground, Main Street, Metro City -
+                    123456
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="p-4">
+                <div class="d-flex flex-column align-items-start mb-3">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot me-3"></i>
+                    <p>Registered Office : :</p>
+                  </div>
+                  <p class="ms-4">
+                    Dummy Advertising & Marketing, 25, Green Villa,Sample
+                    Society, Midtown Area, Townname - 000000
+                  </p>
+                </div>
+                <div class="d-flex flex-column align-items-start mb-3">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot me-3"></i>
+                    <p>Operations Office: :</p>
+                  </div>
+                  <p class="ms-4">
+                    Office No. 1 & 2, Sunshine Apartments, Behind Convention
+                    Hall, Uptown, Metro City - 654321
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <script src="assets/js/bootstrap.bundle.js"></script>
-    
   </body>
 </html>
