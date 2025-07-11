@@ -63,7 +63,7 @@
 }
 
 .volunteer-bg {
-  background-image: url('.../images/ngo-7.jpg') no-repeat center center/cover;
+  background-image: url('../images/ngo-7.jpg') no-repeat center center/cover;
   z-index: 1;
 }
 
