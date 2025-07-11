@@ -1,4 +1,14 @@
 
+@font-face {
+  font-family: 'Infinite-16';
+  src: url('../css/font/Infinity-16.ttf\ \(1\)') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+font-family: 'Infinite-16', sans-serif;
+}
 .khopa_menu {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
@@ -138,7 +148,7 @@
 
 /* journy*/
 .img {
-  background-image: url('../../images/NGO-3.jpg');
+  background-image: url('../images/NGO-3.jpg');
   height: 500PX;
 }
 .Journey_height{
