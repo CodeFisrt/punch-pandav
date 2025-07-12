@@ -29,3 +29,31 @@
   width: 10px;
   color: var(--secondary-color);
 }
+
+.scrolling-text-bar {background: #F4AE1E;
+  text-decoration-color: aliceblue;
+  overflow: hidden;     
+  white-space: nowrap;    
+  padding px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  }
+
+.container-text-bar {
+  text-decoration-color: aliceblue;
+  padding: px;
+  display: inline-block;
+  padding-left: 100%;
+  animation: slide-left 20s linear infinite;
+}
+
+@keyframes slide-left {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.nav-bar { background-color: black;
+  color: #fff;
+  padding: 4px;
+  list-style: none;
+}
