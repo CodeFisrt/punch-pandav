@@ -1,4 +1,8 @@
 
+
+body {
+  font-family: 'Lohit Marathi', 'Mukta', 'Tiro Devanagari Marathi', sans-serif;
+}
 .khopa_menu {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
