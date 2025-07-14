@@ -219,3 +219,23 @@ p{
     .dropdown-item:hover {
       background-color: #f8f9fa;
     }
+
+    .digital-box .text-center:hover {
+  background-color: brown; 
+
+}
+.digital-box .text-center:hover {
+  background-color: brown; 
+  
+}
+.scroll-box {
+  max-height: 150px;
+  overflow-y: scroll;
+  padding: 10px;
+  
+  
+}
+
+.scroll-box::-webkit-scrollbar {
+  display: none; 
+}
