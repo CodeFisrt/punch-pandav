@@ -79,28 +79,30 @@
   border-radius: 50%;
   font-size: 18px;
 }
+
 /* Ensure all swiper slides and cards stretch equally */
-.swiper-slide {
-  height: 100%;
+.service-card-slide{
+  height: 400px;
+  background-color: var(--primary-color);
 }
 
-.card {
+.service-card {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.card-img-top {
+.service-card-img {
   height: 150px;
   object-fit: cover;
 }
 
-.card-body {
+.service-card-body {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.card-body p:last-child {
+.service-card-body p:last-child {
   margin-top: auto; /* pushes last paragraph to bottom for alignment */
 }
