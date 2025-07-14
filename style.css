@@ -90,7 +90,24 @@ header{
     display: block;
     margin-left: 870px;
 }
-
+/* about us css */
+.hero-section {
+      background: url('Img/aboutusbgImg.jpg') center/cover no-repeat;
+      color: black;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .section-padding {
+      padding: 60px 0;
+    }
+    .highlight {
+      color: #28a745;
+      font-weight: 600;
+    }
 
 /* footer css */
 .footer{
