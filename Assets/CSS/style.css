@@ -1,7 +1,19 @@
 
+<<<<<<< HEAD
 
 body {
   font-family: 'Lohit Marathi', 'Mukta', 'Tiro Devanagari Marathi', sans-serif;
+=======
+@font-face {
+  font-family: 'Infinite-16';
+  src: url('../css/font/Infinity-16.ttf\ \(1\)') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+font-family: 'Infinite-16', sans-serif;
+>>>>>>> 50abb469956b79e7b3c00ad3615dd0ff21af0581
 }
 .khopa_menu {
   background-color: rgba(0, 0, 0, 0.4) !important;
@@ -44,7 +56,7 @@ body {
 
 /* volenteer sec */
 .volunteer-section {
-  background-image: url(../../images/ngo-7.jpg);
+  background-image: url('../images/ngo-7.jpg');
 }
 
 /*partner section */
@@ -67,7 +79,7 @@ body {
 }
 
 .volunteer-bg {
-  background-image: url('.../images/ngo-7.jpg') no-repeat center center/cover;
+  background-image: url('../images/ngo-7.jpg') no-repeat center center/cover;
   z-index: 1;
 }
 
@@ -142,7 +154,7 @@ body {
 
 /* journy*/
 .img {
-  background-image: url('../../images/NGO-3.jpg');
+  background-image: url('../images/NGO-3.jpg');
   height: 500PX;
 }
 .Journey_height{
