@@ -29,18 +29,6 @@ font-family: 'Infinite-16', sans-serif;
   z-index: 10;
 }
 
-
-/*second section*/
-.transition-box {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.transition-box:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  border-color:#1b5b4e;
-}
-
 @media (min-width: 768px) {
   .row.justify-content-center .col-md-4 {
     flex: 0 0 auto;
@@ -48,51 +36,9 @@ font-family: 'Infinite-16', sans-serif;
   }
 }
 
-/* volenteer sec */
-.volunteer-section {
-  background-image: url('../images/ngo-7.jpg');
-}
-
-/*partner section */
-#partnerCarousel img {
-  max-height: 80px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-.h1{
-  color: #e0913b;
-}
-
-#partnerCarousel img:hover {
-  transform: scale(1.05);
-}
-
-.volunteer-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.volunteer-bg {
-  background-image: url('../images/ngo-7.jpg') no-repeat center center/cover;
-  z-index: 1;
-}
-
-.overlay {
-  background-color: rgba(40, 37, 40, 0.6);
-  z-index: 2;
-}
-
-.volunteer-section .container {
-  z-index: 3;
-  color: white;
-}
-
 .common_btn {
 
-  background-color: #f77f00 !important;
+  background-color: #218838 !important;
   color: #000 !important;
 }
 
@@ -107,20 +53,37 @@ font-family: 'Infinite-16', sans-serif;
 }
 
 /* Motive */
+
 .img-motive {
   position: relative;
-
 }
 
 .img-motive-1 {
-  position: absolute;
-  top: -50px;
-  left: 50px;
-  z-index: 0;
-  width: 400px;
-  height: 500px;
-  
+  border: 5px solid #fff;
+  overflow: hidden;
+  z-index: 2;
 }
+
+#about-us h2 {
+  font-family: 'Mukta', sans-serif;
+}
+
+#about-us p {
+  line-height: 1.7;
+}
+
+.common_btn {
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.common_btn:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
 
 /* footer */
 .footer {
@@ -140,19 +103,7 @@ font-family: 'Infinite-16', sans-serif;
   color:#1b5b4e;
 }
 
-/* journy*/
-.img {
-  background-image: url('../images/NGO-3.jpg');
-  height: 500PX;
-}
-.Journey_height{
-  height: 570px;
-}
-.proprty_new:hover
-{
-  background-color:#1b5b4e;
-  border-radius: 1rem;
-}
+
 /* donation */
 
 .month{
@@ -190,3 +141,68 @@ width:200px;
 .common_btn_dn {
   background-color: darkgreen;
 }
+
+/* become our volenteer */
+.volunteer-section {
+  min-height: 100vh;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+
+.volunteer-section .btn:hover {
+  background-color: #218838 !important;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+/* make a movement */
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.movement-card:hover .icon-circle {
+  transform: scale(1.1);
+}
+
+.movement-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color:#1b5b4e;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #ffffff;
+}
+
