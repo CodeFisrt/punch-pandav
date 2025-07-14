@@ -193,3 +193,9 @@ font-family: 'Infinite-16', sans-serif;
 .scanner{
 width:200px;
 }
+.titile_txt{
+  background-color:#f77f00;
+}
+.common_btn_dn {
+  background-color: darkgreen;
+}
