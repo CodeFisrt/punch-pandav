@@ -193,7 +193,7 @@ p{
       border-radius: 5px;
     }
 
-    /* Nested dropdown */
+   
     .dropdown-submenu {
       position: relative;
     }
@@ -209,7 +209,7 @@ p{
       display: block;
     }
 
-    /* Bold heading in dropdown */
+    
     .dropdown-header-bold {
       font-weight: bold;
       color: #c7c8d6;
@@ -219,7 +219,7 @@ p{
     .dropdown-item:hover {
       background-color: #f8f9fa;
     }
-<<<<<<< HEAD
+
      .digital-box .text-center:hover {
   background-color: brown; 
   
@@ -235,10 +235,7 @@ p{
 .scroll-box::-webkit-scrollbar {
   display: none; 
 }
-=======
 
-   
-    
   
     .scheme-description {
       font-size: 16px;
@@ -277,4 +274,4 @@ p{
       margin-right: 10px;
     }
   
->>>>>>> aa2a3a5510b32f6303ce3c91d33e2af4a7e84315
+
