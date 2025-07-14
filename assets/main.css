@@ -3,6 +3,9 @@
   --secondary-color: #f4ae1e;
   --secondarytwo-color: #fff;
 }
+body {
+  font-family: Roboto, sans-serif;
+}
 .mask {
   width: 100%;
   height: 100%;
@@ -59,6 +62,11 @@
   padding: 4px;
   list-style: none;
 }
+.nav-btn a {
+  background-color: var(--primary-color);
+  padding: 6px 24px;
+
+}
 
 /* new */
 .swiper-slide .card {
@@ -74,7 +82,7 @@
 .custom-controls button {
   border: none;
   background-color: var(--primary-color);
-  color:var(--secondarytwo-color);
+  color: var(--secondarytwo-color);
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -82,7 +90,7 @@
 }
 
 /* Ensure all swiper slides and cards stretch equally */
-.service-card-slide{
+.service-card-slide {
   height: 400px;
   background-color: var(--primary-color);
 }
@@ -102,6 +110,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-color);
 }
 
 .service-card-body p:last-child {
