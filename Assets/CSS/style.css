@@ -38,7 +38,7 @@ font-family: 'Infinite-16', sans-serif;
 .transition-box:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  border-color: #ff6600;
+  border-color:#1b5b4e;
 }
 
 @media (min-width: 768px) {
@@ -60,7 +60,7 @@ font-family: 'Infinite-16', sans-serif;
   transition: transform 0.3s ease;
 }
 .h1{
-  color: #f77f00;
+  color: #e0913b;
 }
 
 #partnerCarousel img:hover {
@@ -103,7 +103,7 @@ font-family: 'Infinite-16', sans-serif;
 }
 
 .main-content .h {
-  color: #ff6600;
+  color:#1b5b4e;
 }
 
 /* Motive */
@@ -124,7 +124,7 @@ font-family: 'Infinite-16', sans-serif;
 
 /* footer */
 .footer {
-  background-color: rgb(5, 48, 5)
+  background-color:#1b5b4e;
 }
 
 .footerlist {
@@ -137,16 +137,7 @@ font-family: 'Infinite-16', sans-serif;
 
 /* middle content */
 .Khopa_movements {
-  color:rgb(5, 48, 5);
-}
-
-/* newletter */
-.Newsletter {
-  height: "90px";
-  width: "90px";
-  color: white;
-  background-color: #ff6600;
-
+  color:#1b5b4e;
 }
 
 /* journy*/
@@ -159,7 +150,7 @@ font-family: 'Infinite-16', sans-serif;
 }
 .proprty_new:hover
 {
-  background-color:#f77f00;
+  background-color:#1b5b4e;
   border-radius: 1rem;
 }
 /* donation */
