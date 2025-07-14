@@ -1,309 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adonstreet</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/main.css" />
+    <!-- font awesome cdnjs   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- font cdnjs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adonstreet</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="assets/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
-
-<body>
-  <!-- <h1>adonstreet</h1> -->
-  <!--Header section starts here-->
-  <section class="top-header sliding-text">
-    <div class="container-fluid px-0">
-      <div class="scrolling-text-bar d-flex justify-content-end">
-        <p class="running-text fw-bold my-0">
-          Hoarding Advertising • Pole Kiosk Branding • Vehicle Marketing •
-          Wall Painting • Digital LED Screens • Transit Media Advertising
-        </p>
+  <body>
+    <!-- <h1>adonstreet</h1> -->
+    <!--Header section starts here-->
+    <section class="top-header sliding-text">
+      <div class="container-fluid px-0">
+        <div class="scrolling-text-bar d-flex justify-content-end">
+          <p class="running-text fw-bold my-0">
+            Hoarding Advertising • Pole Kiosk Branding • Vehicle Marketing •
+            Wall Painting • Digital LED Screens • Transit Media Advertising
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- navbar section start here -->
-  <section class="secnav position-sticky z-3 top-0">
-    <div class="container-fluid px-0">
-      <div class="row align-items-center">
-        <div class="col-md-12 px-0">
-          <nav class="navbar navbar-expand-md bg-dark">
-            <div class="container">
-              <a class="navbar-brand logo m" href="">
-                <img src="img/logo.svg" alt="" />
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item me-3">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link text-white" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item me-3 dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Services
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item text-dark" href="#">Hoarding</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item text-dark" href="#">Digital Screen</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item text-dark" href="#">Vehicle Marketing</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link text-white" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item me-3">
-                    <a class="nav-link text-white" href="#">Contact us</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="nav-btn">
-                <button type="button" class="btn btn-primary">
-                  <a href="#" target="_blank" rel="" class="text-decoration-none text-white">Sign In</a>
+    </section>
+    <!-- navbar section start here -->
+    <section class="secnav position-sticky z-3 top-0">
+      <div class="container-fluid px-0">
+        <div class="row align-items-center">
+          <div class="col-md-12 px-0">
+            <nav class="navbar navbar-expand-md bg-dark">
+              <div class="container">
+                <a class="navbar-brand logo m" href="">
+                  <img src="img/logo.svg" alt="" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- home section start here -->
-  <section class="home-sec">
-    <div class="container-fluid px-0 main-container">
-      <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/billboardimg.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/wall-img.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/digitalscreen.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/vehicleimg.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/streetimg.jpg" class="d-block w-100" alt="..." />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- service section start here -->
-  <section class="services"></section>
-  <!-- portfolio section start here  -->
-  <section class="portfolio-sec">
-    <div class="container py-5">
-      <div class="row g-4">
-        <!-- Left panel -->
-        <div class="col-lg-3">
-          <h4 class="fw-bold">Service</h4>
-          <p>We Offer Smart & Visible Outdoor Advertising Solutions</p>
-          <div class="custom-controls d-flex gap-2 mt-3">
-            <button id="prevSlide">&#8592;</button>
-            <button id="nextSlide">&#8594;</button>
-          </div>
-        </div>
-
-        <!-- Swiper slider -->
-        <div class="col-lg-9">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-
-              <!-- Card 1 -->
-              <div class="swiper-slide h-100 d-flex flex-column">
-                <div class="card h-100 ">
-                  <img src="img/billboardimg.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Hoarding Advertising</h5>
-                    <p class="card-text text-bolder">Make your brand unmissable at high-traffic junctions 24/7.</p>
-                    <p class="card-text mt-auto">Hoardings placed at high-traffic junctions
-                      and highways ensure your message is
-                      visible 24/7. Ideal for bold, large-scale
-                      campaigns that demand public attention
-                      and long-term impact.</p>
-                  </div>
+                <div
+                  class="collapse navbar-collapse justify-content-center"
+                  id="navbarNavDropdown"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item me-3">
+                      <a
+                        class="nav-link active text-white"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link text-white" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item me-3 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle text-white"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Services
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item text-dark" href="#Hoarding"
+                            >Hoarding</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-dark"
+                            href="#digitalscreen"
+                            >Digital Screen</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item text-dark" href="#vehicle-ads"
+                            >Vehicle Marketing</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item text-dark" href="#poll-kiosk"
+                            >Poll kiosk</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-dark"
+                            href="#wall-painting"
+                            >Wall painting</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link text-white" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link text-white" href="#">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="nav-btn">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel=""
+                    class="text-decoration-none text-white rounded-2"
+                    >Sign In</a
+                  >
                 </div>
               </div>
-              <!-- Card 2 -->
-              <div class="swiper-slide h-100 d-flex flex-column">
-                <div class="card h-100">
-                  <img src="img/streetimg.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Pole Kiosk Branding</h5>
-                    <p class="card-text">Your brand on every streetlight – visible, frequent, effective.</p>
-                    <p class="card-text mt-auto">Hoardings placed at high-traffic junctions
-                      and highways ensure your message is
-                      visible 24/7. Ideal for bold, large-scale
-                      campaigns that demand public attention
-                      and long-term impact.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 3 -->
-              <div class="swiper-slide h-100 d-flex flex-column">
-                <div class="card h-100">
-                  <img src="img/vehicleimg.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Vehicle Advertising</h5>
-                    <p class="card-text">Ads that move reach across the city through dynamic transit media.</p>
-                    <p class="card-text mt-auto">From LED display vans to auto-rickshaw
-                      wraps, our vehicle branding ensures your
-                      ad reaches every corner of the city —
-                      dynamic, flexible, and cost-effective.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Card 4 -->
-              <div class="swiper-slide h-100">
-                <div class="card h-100 d-flex flex-column">
-                  <img src="img/wall-img.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Wall Painting</h5>
-                    <p class="card-text">Creative, hyperlocal wall branding that sticks in minds.</p>
-                    <p class="card-text mt-auto">Traditional, artistic, and hyperlocal. Wall
-                      painting ads bring your brand to life on
-                      residential streets and market walls —
-                      creating strong, lasting impressions in
-                      local communities.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- card 5 -->
-              <div class="swiper-slide h-100">
-                <div class="card h-100 d-flex flex-column">
-                  <img src="img/digitalscreen.jpg" class="card-img-top" alt="..." />
-                  <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Digital LED Screens</h5>
-                    <p class="card-text">Creative, hyperlocal wall branding that sticks in minds.</p>
-                    <p class="card-text mt-auto">Capture real-time attention with high-
-                      resolution LED screens placed in busy
-                      areas. Ideal for events, offers, or product
-                      launches — vibrant, modern, and attention
-                      -grabbing.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+            </nav>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
-  <!-- footer section start here -->
-  <section class="footer-sec">
-    <div class="container-fluid">
-      <div class="row bg-dark">
-        <div class="col d-flex p-4">
-          <div class="col-md-4 me-2">
-            <div class="descp border border-3 border-light rounded-3 p-4">
-              <img src="img/logo.svg" alt="logo" class="mb-2" />
-              <p class="">
-                AdOnStreets delivers smart, street-level advertising solutions
-                that connect brands with real audiences. From LED vans to
-                billboards, we help businesses stand out. With years of
-                experience, we're on a mission to be Pune’s go-to outdoor
-                marketing agency.
-              </p>
+    </section>
+
+    <!-- home section start here -->
+    <section class="home-sec">
+      <div class="container-fluid px-0 main-container">
+        <div
+          id="home-carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/billboardimg.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/wall-img.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/digitalscreen.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="img/vehicleimg.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/streetimg.jpg" class="d-block w-100" alt="..." />
             </div>
           </div>
-          <div class="col-md-4 me-2">
-            <div class="p-4">
-              <div class="d-flex align-items-center mb-3">
-                <i class="fa-solid fa-phone me-3"></i>
-                <p>+91 XXXXXXXXXX</p>
-              </div>
-              <div class="d-flex align-items-center mb-3">
-                <i class="fa-solid fa-envelope me-3"></i>
-                <a href="" class="text-decoration-none text-white">contact@example.com / support@example.com</a>
-              </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#home-carousel"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-primary rounded-3 border"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#home-carousel"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-primary rounded-3 border"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
 
-              <div class="d-flex flex-column align-items-start mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="fa-solid fa-location-dot me-3"></i>
-                  <p>Corporate office :</p>
+    <!-- service section start here -->
+    <section class="service-sec">
+      <div class="container py-5">
+        <div class="row g-4">
+          <!-- Left panel -->
+          <div class="col-md-3 p-5">
+            <h4 class="fw-bolder">Service</h4>
+            <p class="">
+              We Offer Smart & Visible Outdoor Advertising Solutions
+            </p>
+            <div class="custom-controls d-flex gap-2 mt-3">
+              <button id="prevSlide">&#8592;</button>
+              <button id="nextSlide">&#8594;</button>
+            </div>
+          </div>
+
+          <!-- Swiper slider -->
+          <div class="col-md-9">
+            <div class="swiper mySwiper px-0">
+              <div class="swiper-wrapper">
+                <!-- Card 1 -->
+                <div
+                  class="swiper-slide service-card-slide d-flex flex-column rounded-4"
+                  id="Hoarding"
+                >
+                  <div class="card service-card">
+                    <img
+                      src="img/billboardimg.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body service-card-body d-flex flex-column">
+                      <h5 class="card-title">Hoarding Advertising</h5>
+                      <p class="card-text text-bolder">
+                        Make your brand unmissable at high-traffic junctions
+                        24/7.
+                      </p>
+                      <p class="card-text mt-auto">
+                        Hoardings placed at high-traffic junctions and highways
+                        ensure your message is visible 24/7. Ideal for bold,
+                        large-scale campaigns that demand public attention and
+                        long-term
+                      </p>
+                      <a
+                        href=""
+                        class="btn btn-light text-decoration-none rounded-3 w-50 text-primary"
+                        >More details</a
+                      >
+                    </div>
+                  </div>
                 </div>
-                <p class="ms-4">
-                  Office No. 402, 6th Floor, Elite Tower, near Landmark
-                  Hotel,Opposite City Parade Ground, Main Street, Metro City -
-                  123456
+                <!-- Card 2 -->
+                <div
+                  class="swiper-slide service-card-slide d-flex flex-column rounded-4"
+                  id="pole-kiosk"
+                >
+                  <div class="card service-card">
+                    <img
+                      src="img/streetimg.jpg"
+                      class="card-img-top service-card-img"
+                      alt="..."
+                    />
+                    <div class="card-body service-card-body d-flex flex-column">
+                      <h5 class="card-title">Pole Kiosk Branding</h5>
+                      <p class="card-text">
+                        Your brand on every streetlight – visible, frequent,
+                        effective.
+                      </p>
+                      <p class="card-text mt-auto">
+                        Hoardings placed at high-traffic junctions and highways
+                        ensure your message is visible 24/7. Ideal for bold,
+                        large-scale campaigns that demand public attention and
+                        long-term .
+                      </p>
+                      <a
+                        href=""
+                        class="btn btn-light text-decoration-none rounded-3 w-50 text-primary"
+                        >More details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div
+                  class="swiper-slide service-card-slide d-flex flex-column rounded-4"
+                  id="vehicle-ads"
+                >
+                  <div class="card service-card">
+                    <img
+                      src="img/vehicleimg.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body service-card-body d-flex flex-column">
+                      <h5 class="card-title">Vehicle Advertising</h5>
+                      <p class="card-text">
+                        Ads that move reach across the city through dynamic
+                        transit media.
+                      </p>
+                      <p class="card-text mt-auto">
+                        From LED display vans to auto-rickshaw wraps, our
+                        vehicle branding ensures your ad reaches every corner of
+                        the city — dynamic, flexible, and cost-effective.
+                      </p>
+                      <a
+                        href=""
+                        class="btn btn-light text-decoration-none rounded-3 w-50 text-primary"
+                        >More details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div
+                  class="swiper-slide service-card-slide d-flex flex-column rounded-4"
+                  id="wall-painting"
+                >
+                  <div class="card service-card d-flex flex-column">
+                    <img
+                      src="img/wall-img.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body service-card-body d-flex flex-column">
+                      <h5 class="card-title">Wall Painting</h5>
+                      <p class="card-text">
+                        Creative, hyperlocal wall branding that sticks in minds.
+                      </p>
+                      <p class="card-text mt-auto">
+                        Traditional, artistic, and hyperlocal. Wall painting ads
+                        bring your brand to life on residential streets and
+                        market walls — creating strong, lasting impressions in
+                        local communities.
+                      </p>
+                      <a
+                        href=""
+                        class="btn btn-light text-decoration-none rounded-3 w-50 text-primary"
+                        >More details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- card 5 -->
+                <div
+                  class="swiper-slide service-card-slide d-flex flex-column rounded-4"
+                  id="digitalscreen"
+                >
+                  <div class="card service-card d-flex flex-column">
+                    <img
+                      src="img/digitalscreen.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body service-card-body d-flex flex-column">
+                      <h5 class="card-title">Digital LED Screens</h5>
+                      <p class="card-text">
+                        Creative, hyperlocal wall branding that sticks in minds.
+                      </p>
+                      <p class="card-text mt-auto">
+                        Capture real-time attention with high- resolution LED
+                        screens placed in busy areas. Ideal for events, offers,
+                        or product launches — vibrant, modern, and attention
+                        -grabbing.
+                      </p>
+                      <a
+                        href=""
+                        class="btn btn-light text-decoration-none rounded-3 w-50 text-primary"
+                        >More details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section start here  -->
+    <section class="portfolio-sec"></section>
+
+    <!-- review section start here -->
+    <section class="review-sec"></section>
+
+    <!-- footer section start here -->
+    <section class="footer-sec">
+      <div class="container-fluid">
+        <div class="row bg-dark">
+          <div class="col d-flex p-4">
+            <div class="col-md-4 me-2">
+              <div class="descp border border-3 border-light rounded-3 p-4">
+                <img src="img/logo.svg" alt="logo" class="mb-2" />
+                <p class="">
+                  AdOnStreets delivers smart, street-level advertising solutions
+                  that connect brands with real audiences. From LED vans to
+                  billboards, we help businesses stand out. With years of
+                  experience, we're on a mission to be Pune’s go-to outdoor
+                  marketing agency.
                 </p>
               </div>
             </div>
-          </div>
+            <div class="col-md-4 me-2">
+              <div class="p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fa-solid fa-phone me-3"></i>
+                  <p>+91 9970611896</p>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                  <i class="fa-solid fa-envelope me-3"></i>
+                  <a href="" class="text-decoration-none text-white"
+                    >info@codefirstacademy.com</a
+                  >
+                </div>
 
-          <div class="col-md-4">
-            <div class="p-4">
-              <div class="d-flex flex-column align-items-start mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="fa-solid fa-location-dot me-3"></i>
-                  <p>Registered Office : :</p>
+                <div class="d-flex flex-column align-items-start mb-3">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot me-3"></i>
+                    <p>Corporate office :</p>
+                  </div>
+                  <p class="ms-4">
+                    CodeFirst, Malhar Heights, Anand Park, Thakar Nagar Raod
+                    Near Joyville, Maan, Raod, Hinjawadi, Pune, Maharashtra
+                    411017
+                  </p>
                 </div>
-                <p class="ms-4">
-                  Dummy Advertising & Marketing, 25, Green Villa,Sample
-                  Society, Midtown Area, Townname - 000000
-                </p>
               </div>
-              <div class="d-flex flex-column align-items-start mb-3">
-                <div class="d-flex align-items-center">
-                  <i class="fa-solid fa-location-dot me-3"></i>
-                  <p>Operations Office: :</p>
+            </div>
+
+            <div class="col-md-4">
+              <div class="p-4">
+                <div class="d-flex flex-column align-items-start mb-3">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot me-3"></i>
+                    <p>Registered Office : :</p>
+                  </div>
+                  <p class="ms-4">
+                    CodeFirst, Malhar Heights, Anand Park, Thakar Nagar Raod
+                    Near Joyville, Maan, Raod, Hinjawadi, Pune, Maharashtra
+                    411017
+                  </p>
                 </div>
-                <p class="ms-4">
-                  Office No. 1 & 2, Sunshine Apartments, Behind Convention
-                  Hall, Uptown, Metro City - 654321
-                </p>
+                <div class="d-flex flex-column align-items-start mb-3">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-location-dot me-3"></i>
+                    <p>Operations Office: :</p>
+                  </div>
+                  <p class="ms-4">
+                    CodeFirst, Malhar Heights, Anand Park, Thakar Nagar Raod
+                    Near Joyville, Maan, Raod, Hinjawadi, Pune, Maharashtra
+                    411017
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <script src="assets/js/bootstrap.bundle.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.mySwiper', {
-      slidesPerView: 3,
-      spaceBetween: 24,
-      loop: true,
-      breakpoints: {
-        0: {
-          slidesPerView: 1
-        },
-        768: {
-          slidesPerView: 2
-        },
-        992: {
-          slidesPerView: 3
-        }
-      }
-    });
-    // Custom buttons
-    document.getElementById("prevSlide").addEventListener("click", () => swiper.slidePrev());
-    document.getElementById("nextSlide").addEventListener("click", () => swiper.slideNext());
-  </script>
-</body>
+    </section>
 
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
 </html>

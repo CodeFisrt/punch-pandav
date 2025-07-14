@@ -3,6 +3,9 @@
   --secondary-color: #f4ae1e;
   --secondarytwo-color: #fff;
 }
+body {
+  font-family: Roboto, sans-serif;
+}
 .mask {
   width: 100%;
   height: 100%;
@@ -59,11 +62,16 @@
   padding: 4px;
   list-style: none;
 }
+.nav-btn a {
+  background-color: var(--primary-color);
+  padding: 6px 24px;
+
+}
 
 /* new */
 .swiper-slide .card {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondarytwo-color);
   height: 100%;
 }
 .swiper-slide img {
@@ -73,34 +81,99 @@
 
 .custom-controls button {
   border: none;
-  background-color: #007bff;
-  color: white;
+<<<<<<< HEAD
+  background-color:var(--primary-color);
+  color:var(--secondarytwo-color);
   padding: 8px 12px;
+=======
+  background-color: var(--primary-color);
+  color: var(--secondarytwo-color);
+  height: 40px;
+  width: 40px;
+>>>>>>> 6226f46600a0cccfe339f24e8d25484d80fdb7b9
   border-radius: 50%;
-  font-size: 18px;
-}
-/* Ensure all swiper slides and cards stretch equally */
-.swiper-slide {
-  height: 100%;
+  font-size: 24px;
 }
 
-.card {
+/* Ensure all swiper slides and cards stretch equally */
+.service-card-slide {
+  height: 400px;
+  background-color: var(--primary-color);
+}
+
+.service-card {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.card-img-top {
+.service-card-img {
   height: 150px;
   object-fit: cover;
 }
 
-.card-body {
+.service-card-body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-color);
 }
 
-.card-body p:last-child {
+.service-card-body p:last-child {
   margin-top: auto; /* pushes last paragraph to bottom for alignment */
+}
+
+/* sign in css  */
+.custom-left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: linear-gradient(to bottom right, var(--primary-color), #0056b3);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.custom-left p {
+  color: var(--secondarytwo-color);
+  margin-bottom: 1.5rem;
+}
+
+/* signup page css  */
+.custom-right {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(to bottom right, var(--primary-color), #0056b3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Contact us page  */
+/* .contactus-sec{
+  margin: 200px 0;
+  background-color: red;
+} */
+.contactus-left {
+  background-color: var(--primary-color);
+}
+.contactus-right{
+  padding: 24px 96px;
+}
+.contactus-right > h4{
+  color: var(--primary-color);
+}
+.bg-light {
+  background-color: #e2e2e2 !important;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.contactus-submit-btn{
+  background-color: var(--primary-color);
+  padding: 8px 24px;
+
+
 }
