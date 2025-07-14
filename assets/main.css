@@ -73,11 +73,12 @@
 
 .custom-controls button {
   border: none;
-  background-color: #007bff;
-  color: white;
-  padding: 8px 12px;
+  background-color: var(--primary-color);
+  color:var(--secondarytwo-color);
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 /* Ensure all swiper slides and cards stretch equally */
