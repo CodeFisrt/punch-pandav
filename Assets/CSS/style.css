@@ -59,6 +59,9 @@ font-family: 'Infinite-16', sans-serif;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
+.h1{
+  color: #f77f00;
+}
 
 #partnerCarousel img:hover {
   transform: scale(1.05);
