@@ -155,7 +155,7 @@ p{
       text-decoration: none;
     }
     .quick-links a:hover {
-      color:#1 #f0ebeb;
+      color:1 #f0ebeb;
       text-decoration: underline;
     }
     .news-box {
@@ -219,3 +219,82 @@ p{
     .dropdown-item:hover {
       background-color: #f8f9fa;
     }
+
+
+
+    .scheme-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .nav-pills .nav-link {
+      background-color: #4a4a4a;
+      color: white;
+      margin-bottom: 5px;
+      text-align: left;
+      border-radius: 0;
+    }
+    .nav-pills .nav-link.active {
+      background-color: #c40050;
+      position: relative;
+    }
+    .nav-pills .nav-link.active::after {
+      content: '';
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      transform: translateY(-50%);
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #c40050;
+    }
+    .tab-content {
+      border: 1px solid #ddd;
+      padding: 20px;
+      background: white;
+      height: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .tab-content i {
+      color: #c40050;
+      margin-right: 10px;
+    }
+
+    
+    
+    .scheme-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .nav-pills .nav-link {
+      background-color: #4a4a4a;
+      color: white;
+      margin-bottom: 5px;
+      text-align: left;
+      border-radius: 0;
+    }
+    .nav-pills .nav-link.active {
+      background-color: #c40050;
+      position: relative;
+    }
+    .nav-pills .nav-link.active::after {
+      content: '';
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      transform: translateY(-50%);
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid #c40050;
+    }
+    .tab-content {
+      border: 1px solid #ddd;
+      padding: 20px;
+      background: white;
+      height: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .tab-content i {
+      color: #c40050;
+      margin-right: 10px;
+    }
+  

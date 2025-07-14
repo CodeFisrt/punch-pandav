@@ -1,4 +1,20 @@
-<section class="top-header">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indrayani</title>
+  <link rel="stylesheet" href="a1.css">
+  <link rel="stylesheet" href="Assets/css/bootstrap.min.css" relation="stylesheet">
+  <!-- <link rel="stylesheet" href="Assets/js/bootstrap.bundle.min.js"> -->
+  <link rel="shortcut icon" href="img/main logo svg.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <section class="top-header">
     <div class="header-area">
       <div class="container">
         <div class="row">
@@ -25,114 +41,421 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-custom ">
-      <div class="container-fluid">
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown">
-          <span class="navbar-toggler-icon"></span>
+  </section>
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top z-3 ">
+    <div class="container-fluid">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li> <a class="navbar-brand text-dark" href="#"><i class="fa-solid fa-house-chimney pt-2"></i></a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Deposits
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <h6 class="dropdown-header dropdown-header-bold">Accounts</h6>
+              </li>
+              <li><a class="dropdown-item" href="#">Savings Bank Account</a></li>
+              <li><a class="dropdown-item" href="#">Current Account</a></li>
+
+
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Terms Deposit</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Senior Citizen Deposit</a></li>
+                  <li><a class="dropdown-item" href="#">Short Term Deposits</a></li>
+                  <li><a class="dropdown-item" href="#">Fixed Deposits</a></li>
+                  <li><a class="dropdown-item" href="#">Reinvestment Plan Deposit</a></li>
+                  <li><a class="dropdown-item" href="#">Tax Saver Scheme</a></li>
+                  <li><a class="dropdown-item" href="#">Recurring Deposits</a></li>
+                </ul>
+              </li>
+
+              <li><a class="dropdown-item" href="#">Interest Rates</a></li>
+              <li><a class="dropdown-item" href="#">Service Charges</a></li>
+              <li><a class="dropdown-item" href="#">Nomination Facility</a></li>
+              <li><a class="dropdown-item" href="#">Application For Deceased Claim</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="loansDropdown" role="button" data-bs-toggle="dropdown">
+              Loans
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="loansDropdown">
+              <li><a class="dropdown-item" href="home_loan.html">Home Loan</a></li>
+              <li><a class="dropdown-item" href="#">PersonalLoan</a></li>
+              <li><a class="dropdown-item" href="#">Buisness Loan</a></li>
+              <li><a class="dropdown-item" href="#">Education Loan</a></li>
+              <li><a class="dropdown-item" href="#">Gold Loan</a></li>
+              <li><a class="dropdown-item" href="#">Vehical Loan</a></li>
+              <li><a class="dropdown-item" href="#">Loan Against Other Securities</a></li>
+              <li><a class="dropdown-item" href="#">Fare Practice code for lenders</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="digitalDropdown" role="button" data-bs-toggle="dropdown">
+              Digital Banking
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="digitalDropdown">
+              <li><a class="dropdown-item" href="#">Mobile App</a></li>
+              <li><a class="dropdown-item" href="#">Rupay</a></li>
+              <li><a class="dropdown-item" href="#">ATM Service</a></li>
+              <li><a class="dropdown-item" href="#">SMS Banking</a></li>
+              <li><a class="dropdown-item" href="#">Net Banking</a></li>
+              <li><a class="dropdown-item" href="#">UPI</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Other Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="#">RTGS</a></li>
+              <li><a class="dropdown-item" href="#">NEFT</a></li>
+              <li><a class="dropdown-item" href="#">Lockers</a></li>
+              <li><a class="dropdown-item" href="#">Demat</a></li>
+              <li><a class="dropdown-item" href="#">Insurance</a></li>
+              <li><a class="dropdown-item" href="#">Forign Exchange</a></li>
+              <li><a class="dropdown-item" href="#">Stamp franking</a></li>
+              <li><a class="dropdown-item" href="#">positive pay</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Our Founders</a></li>
+              <li><a class="dropdown-item" href="#">Board of Directors</a></li>
+              <li><a class="dropdown-item" href="#">Board of Management</a></li>
+              <li><a class="dropdown-item" href="#">Annual Report</a></li>
+              <li><a class="dropdown-item" href="#">Financial Results</a></li>
+              <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr>
+  <section class="main-header">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class=""
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+            class=""></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+            class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"
+            class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"
+            class="active" aria-current="true"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section><br>
+  <section class="gav">
+    <div class="left-side-bar">
+      <h2 class="text-center mb-4">What are you looking for?</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="list-group sidebar">
+            <a href="#" class="list-group-item ">Apply for Loans</a>
+            <a href="#" class="list-group-item ">Deposits</a>
+            <a href="#" class="list-group-item ">Open an Account</a>
+            <a href="#" class="list-group-item ">Make an Investment</a>
+            <a href="#" class="list-group-item ">Get Insured</a>
+            <a href="#" class="list-group-item ">Need an Assistance</a>
+          </div>
+        </div>
 
-        <div class="collapse navbar-collapse justify-content-end">
-          <ul class="navbar-nav">
-            <li> <a class="navbar-brand text-dark" href="#"><i class="fa-solid fa-house-chimney pt-2"></i></a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                Deposits
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <h6 class="dropdown-header dropdown-header-bold">Accounts</h6>
-                </li>
-                <li><a class="dropdown-item" href="#">Savings Bank Account</a></li>
-                <li><a class="dropdown-item" href="#">Current Account</a></li>
+
+        <div class="col-md-9">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="loan-card">
+                <h5>VEHICLE LOAN</h5>
+                <div class="loan-rate">9.00%<small> p.a.</small></div>
+                <a href="#" class="d-block mt-2">Know More</a>
+                <button class="btn apply-btn mt-2">APPLY NOW</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="loan-card">
+                <h5>EDUCATIONAL LOAN</h5>
+                <div class="loan-rate">10.50%<small> p.a.</small></div>
+                <a href="#" class="d-block mt-2">Know More</a>
+                <button class="btn apply-btn mt-2">APPLY NOW</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="loan-card">
+                <h5>PERSONAL LOAN</h5>
+                <div class="loan-rate">11.00%<small> p.a.</small></div>
+                <a href="#" class="d-block mt-2">Know More</a>
+                <button class="btn apply-btn mt-2">APPLY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <section class="stats-section">
+      <div class="container">
+        <div class="row text-center g-4">
 
 
-                <li class="dropdown-submenu">
-                  <a class="dropdown-item dropdown-toggle" href="#">Terms Deposit</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Senior Citizen Deposit</a></li>
-                    <li><a class="dropdown-item" href="#">Short Term Deposits</a></li>
-                    <li><a class="dropdown-item" href="#">Fixed Deposits</a></li>
-                    <li><a class="dropdown-item" href="#">Reinvestment Plan Deposit</a></li>
-                    <li><a class="dropdown-item" href="#">Tax Saver Scheme</a></li>
-                    <li><a class="dropdown-item" href="#">Recurring Deposits</a></li>
-                  </ul>
-                </li>
+          <div class="col-md-3 col-6">
+            <div class="stat-card">
+              <i class="bi bi-bank2"></i>
+              <div class="stat-value">70</div>
+              <div class="stat-label">Branches</div>
+            </div>
+          </div>
 
-                <li><a class="dropdown-item" href="#">Interest Rates</a></li>
-                <li><a class="dropdown-item" href="#">Service Charges</a></li>
-                <li><a class="dropdown-item" href="#">Nomination Facility</a></li>
-                <li><a class="dropdown-item" href="#">Application For Deceased Claim</a></li>
-              </ul>
-            </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="loansDropdown" role="button" data-bs-toggle="dropdown">
-                Loans
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="loansDropdown">
-                <li><a class="dropdown-item" href="#">Home Loan</a></li>
-                <li><a class="dropdown-item" href="#">PersonalLoan</a></li>
-                <li><a class="dropdown-item" href="#">Buisness Loan</a></li>
-                <li><a class="dropdown-item" href="#">Education Loan</a></li>
-                <li><a class="dropdown-item" href="#">Gold Loan</a></li>
-                <li><a class="dropdown-item" href="#">Vehical Loan</a></li>
-                <li><a class="dropdown-item" href="#">Loan Against Other Securities</a></li>
-                <li><a class="dropdown-item" href="#">Fare Practice code for lenders</a></li>
-              </ul>
-            </li>
+          <div class="col-md-3 col-6">
+            <div class="stat-card">
+              <i class="bi bi-coin"></i>
+              <div class="stat-value">₹ 36.20 Cr</div>
+              <div class="stat-label">Net Profit</div>
+            </div>
+          </div>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="digitalDropdown" role="button" data-bs-toggle="dropdown">
-                Digital Banking
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="digitalDropdown">
-                <li><a class="dropdown-item" href="#">Mobile App</a></li>
-                <li><a class="dropdown-item" href="#">Rupay</a></li>
-                <li><a class="dropdown-item" href="#">ATM Service</a></li>
-                <li><a class="dropdown-item" href="#">SMS Banking</a></li>
-                <li><a class="dropdown-item" href="#">Net Banking</a></li>
-                <li><a class="dropdown-item" href="#">UPI</a></li>
-              </ul>
-            </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                data-bs-toggle="dropdown">
-                Other Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                <li><a class="dropdown-item" href="#">RTGS</a></li>
-                <li><a class="dropdown-item" href="#">NEFT</a></li>
-                <li><a class="dropdown-item" href="#">Lockers</a></li>
-                <li><a class="dropdown-item" href="#">Demat</a></li>
-                <li><a class="dropdown-item" href="#">Insurance</a></li>
-                <li><a class="dropdown-item" href="#">Forign Exchange</a></li>
-                <li><a class="dropdown-item" href="#">Stamp franking</a></li>
-                <li><a class="dropdown-item" href="#">positive pay</a></li>
-              </ul>
-            </li>
+          <div class="col-md-3 col-6">
+            <div class="stat-card">
+              <i class="bi bi-briefcase"></i>
+              <div class="stat-value">₹ 2884.74 Cr</div>
+              <div class="stat-label">Deposits</div>
+            </div>
+          </div>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown">
-                About Us
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Our Founders</a></li>
-                <li><a class="dropdown-item" href="#">Board of Directors</a></li>
-                <li><a class="dropdown-item" href="#">Board of Management</a></li>
-                <li><a class="dropdown-item" href="#">Annual Report</a></li>
-                <li><a class="dropdown-item" href="#">Financial Results</a></li>
-                <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
-              </ul>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+          <div class="col-md-3 col-6">
+            <div class="stat-card">
+              <i class="bi bi-arrow-repeat"></i>
+              <div class="stat-value">₹ 3620.92 Cr</div>
+              <div class="stat-label">Working Capital</div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </nav>
+    </section>
+
+    <div class="container mt-5">
+      <div class="row">
+
+        <div class="col-md-4 digital-box">
+          <h4>Digital Banking</h4>
+          <div class="row row-cols-2 g-3 mt-3">
+            <div class="col text-center">
+              <i class="bi bi-bank digital-icon"></i>
+              <h5>Internet Banking</h5>
+            </div>
+            <div class="col text-center">
+              <i class="bi bi-phone digital-icon"></i>
+              <h5>Mobile Banking</h5>
+            </div>
+            <div class="col text-center">
+              <i class="bi bi-chat-left-text digital-icon"></i>
+              <h5>SMS Banking</h5>
+            </div>
+            <div class="col text-center">
+              <i class="bi bi-credit-card-2-front digital-icon"></i>
+              <h5>ATM Services</h5>
+            </div>
+            <div class="col text-center">
+              <i class="bi bi-file-earmark-text digital-icon"></i>
+              <h5>Stamp Franking</h5>
+            </div>
+            <div class="col text-center">
+              <i class="bi bi-wallet2 digital-icon"></i>
+              <h5>RuPay Debit Card</h5>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 digital-box">
+          <h4>Quick Links</h4>
+          <div class="quick-links mt-3">
+            <a href="#"><i class="bi bi-chevron-right"></i> Branch/ATM Locator</a>
+            <a href="#"><i class="bi bi-chevron-right"></i> Dormant Accounts</a>
+            <a href="#"><i class="bi bi-chevron-right"></i> Help Desk</a>
+            <a href="#"><i class="bi bi-chevron-right"></i> Contact Us</a>
+            <a href="#"><i class="bi bi-chevron-right"></i> Lodge a Complaint</a>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="news-box">
+            <h5>News & Announcement</h5>
+            <p><strong>KYC Updation Notice :</strong><br>
+              “Dear Customers, As per RBI guidelines and Bank’s KYC policy, KYC documents/information needs to be
+              submitted to Bank for periodic update of KYC as per stipulated intervals. Accordingly we request all our
+              customers due for KYC updation to immediately submit updated KYC details along with required documents to
+              home branch to ensure uninterrupted service of their accounts.”
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
+  <hr>
+  <section class="youtube">
+    <div class="container my-4">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/hE3ver-Ti5o?si=gY-mhFV6Mu2MXnvp" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/TlGFtgXIvU0?si=EBmEII-3wHMI83kt" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/q-4HMw02uCU?si=Hg_1zneKCiD6n6ju" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+
+          <!-- Deposit Column -->
+          <div class="col-md-2">
+            <h5><strong>Deposit</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Terms Deposit</a></li>
+              <li><a href="#">Fixed Deposit</a></li>
+              <li><a href="#">Senior Citizen Deposit</a></li>
+            </ul>
+          </div>
+
+          <!-- Services Column -->
+          <div class="col-md-2">
+            <h5><strong>Services</strong></h5>
+            <ul class="list-unstyled" class="a-decor">
+              <li><a href="#">RuPay Debit Cards</a></li>
+              <li><a href="#">RuPay Debit Cards</a></li>
+              <li><a href="#">NEFT/RTGS</a></li>
+              <li><a href="#">Insurance</a></li>
+              <li><a href="#">SMS Banking</a></li>
+              <li><a href="#">Locker</a></li>
+              <li><a href="#">Foreign Exchange</a></li>
+              <li><a href="#">Branches</a></li>
+            </ul>
+          </div>
+
+          <!-- Loan Column -->
+          <div class="col-md-2">
+            <h5><strong>Loan</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home Loan</a></li>
+              <li><a href="#">Personal Loan</a></li>
+              <li><a href="#">Business Loan</a></li>
+              <li><a href="#">Educational Loan</a></li>
+              <li><a href="#">Gold Loan</a></li>
+              <li><a href="#">Vehicle Loan</a></li>
+            </ul>
+          </div>
+
+          <!-- Know More Column -->
+          <div class="col-md-2">
+            <h5><strong>Know more</strong></h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Lodge a Complaint</a></li>
+              <li><a href="#">Open Account</a></li>
+              <li><a href="#">Dormant Accounts</a></li>
+              <li><a href="#">Holidays List</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Auction</a></li>
+              <li><a href="#">Customer Education Series</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Properties in possession under SARFAESI Act,2002</a></li>
+              <li><a href="#">Properties in possession under SARFAESI Act,2002</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4" style="text-align: center;">
+            <div class="image">
+              <img src="./img/main logo svg.svg" alt="">
+              <p>इंद्रायणी अर्बन को-ऑपरेटिव्ह क्रेडिट सोसायटी लि.</p>
+              <p>मेडशिंगी, ता. सांगोला, जि. सोलापूर 413307.</p>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="last">
+              <div class="photo1"><img src="./img/dicgc_logo.png" alt=""></div>
+              <div class="photo2"><img src="./img/qr.png" alt=""></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </section>
+<script src="Assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
