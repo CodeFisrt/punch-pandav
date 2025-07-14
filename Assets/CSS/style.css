@@ -1,9 +1,4 @@
 
-<<<<<<< HEAD
-
-body {
-  font-family: 'Lohit Marathi', 'Mukta', 'Tiro Devanagari Marathi', sans-serif;
-=======
 @font-face {
   font-family: 'Infinite-16';
   src: url('../css/font/Infinity-16.ttf\ \(1\)') format('truetype');
@@ -13,7 +8,6 @@ body {
 
 *{
 font-family: 'Infinite-16', sans-serif;
->>>>>>> 50abb469956b79e7b3c00ad3615dd0ff21af0581
 }
 .khopa_menu {
   background-color: rgba(0, 0, 0, 0.4) !important;
@@ -167,4 +161,35 @@ font-family: 'Infinite-16', sans-serif;
 {
   background-color:#f77f00;
   border-radius: 1rem;
+}
+/* donation */
+
+.month{
+    position: relative;
+    left: 42%;
+    bottom: 109%;
+    background-color: rgb(248, 252, 248);
+    color: black;
+    width: 400px;
+}
+.month:hover{
+    background-color: green;
+}
+.aomunt{
+    position: relative;
+    top:90%;
+}
+
+.coustome{
+    position: relative;
+    left: 17%;
+}
+.coustomer:hover{
+    background-color: green;
+}
+.input{
+    width: 350px;
+}
+.scanner{
+width:200px;
 }
