@@ -235,7 +235,7 @@ p{
       border-radius: 0;
     }
     .nav-pills .nav-link.active {
-      background-color: #c40050;
+      background-color: #4a52e2;
       position: relative;
     }
     .nav-pills .nav-link.active::after {
@@ -246,7 +246,7 @@ p{
       transform: translateY(-50%);
       border-top: 10px solid transparent;
       border-bottom: 10px solid transparent;
-      border-left: 10px solid #c40050;
+      border-left: 10px solid #5a47ef;
     }
     .tab-content {
       border: 1px solid #ddd;
@@ -256,7 +256,7 @@ p{
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
     .tab-content i {
-      color: #c40050;
+      color: #4c2dd7;
       margin-right: 10px;
     }
 
@@ -274,7 +274,7 @@ p{
       border-radius: 0;
     }
     .nav-pills .nav-link.active {
-      background-color: #c40050;
+      background-color: #657bea;
       position: relative;
     }
     .nav-pills .nav-link.active::after {
@@ -285,7 +285,7 @@ p{
       transform: translateY(-50%);
       border-top: 10px solid transparent;
       border-bottom: 10px solid transparent;
-      border-left: 10px solid #c40050;
+      border-left: 10px solid #654cf3;
     }
     .tab-content {
       border: 1px solid #ddd;
@@ -295,17 +295,17 @@ p{
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
     .tab-content i {
-      color: #c40050;
+      color: #6143db;
       margin-right: 10px;
     }
   
-=======
+
     .digital-box .text-center:hover {
-  background-color: brown; 
+  background-color: rgb(79, 71, 222); 
 
 }
 .digital-box .text-center:hover {
-  background-color: brown; 
+  background-color: rgb(83, 90, 236); 
   
 }
 .scroll-box {
@@ -319,4 +319,55 @@ p{
 .scroll-box::-webkit-scrollbar {
   display: none; 
 }
->>>>>>> ed02b83b10521e828413e8cc619716ab60ce5f01
+
+ 
+    .side-menu-container {
+      position: fixed;
+      right: 0;
+      top: 40%;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+    }
+
+    .toggle-btn {
+      background-color: #5b44f0;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 1000;
+    }
+
+    .menu-panel {
+      background: white;
+      width: 250px;
+      border-radius: 10px 0 0 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding: 10px 0;
+      display: none;
+      flex-direction: column;
+    }
+
+    .menu-item {
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #5f6ef3;
+      font-weight: 500;
+      cursor: pointer;
+      border-bottom: 1px solid #392cb0d4;
+      transition: background 0.2s;
+    }
+
+    .menu-item:hover {
+      background-color: #f8f9fa;
+    }
+
+    .menu-item i {
+      font-size: 20px;
+    }
+  
