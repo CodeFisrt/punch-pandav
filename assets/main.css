@@ -74,7 +74,12 @@ body {
 .nav-btn a {
   background-color: var(--primary-color);
   padding: 6px 24px;
-
+}
+.nav-toggle-btn{
+  background-color: var(--primary-color);
+}
+.nav-toggle-btn > span{
+  
 }
 
 /* new */
