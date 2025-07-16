@@ -78,11 +78,10 @@ body {
   background-color: var(--primary-color);
   padding: 6px 24px;
 }
-.nav-toggle-btn{
+.nav-toggle-btn {
   background-color: var(--primary-color);
 }
-.nav-toggle-btn > span{
-  
+.nav-toggle-btn > span {
 }
 
 /* new */
@@ -152,7 +151,6 @@ body {
 .signin-left {
   border-radius: 20px 0 0 20px;
   background: linear-gradient(to bottom right, var(--primary-color), #0056b3);
-
 }
 
 .signin-left p {
@@ -179,7 +177,7 @@ body {
   padding: 24px 96px;
 }
 
-.contactus-right>h4 {
+.contactus-right > h4 {
   color: var(--primary-color);
 }
 
@@ -194,13 +192,36 @@ textarea.form-control {
 .contactus-submit-btn {
   background-color: var(--primary-color);
   padding: 8px 24px;
-
-
 }
 
-
 /* our work section  */
+.our-work-swiper {
+  height: 100%;
+}
+.ourwork-card {
+  height: 100%;
+  border:2px solid grey;
+  margin-bottom: 5px ;
+  box-shadow: 1px 1px 5px  #000;
+}
+.ourwork-card p {
+  margin: 0;
+}
+.ourwork-card:last-child {
+  color: gray;
+}
+.our-work-left-btn ,.our-work-right-btn {
+  all: unset;
+  background-color: var(--primary-color);
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: var(--secondarytwo-color);
+  font-size: 24px;
+}
 
-.ourwork-card{
-  
+.ourwork-card .card-title{
+  color: var(--primary-color);
+}
+.ourwork-card .card-body{
+background-color: var(--secondarytwo-color);
 }
