@@ -3,7 +3,10 @@
   --secondary-color: #f4ae1e;
   --secondarytwo-color: #fff;
 }
-
+html {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: Roboto, sans-serif;
 }
@@ -146,22 +149,19 @@ body {
 }
 
 /* sign in css  */
-.custom-left {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+.signin-left {
+  border-radius: 20px 0 0 20px;
   background: linear-gradient(to bottom right, var(--primary-color), #0056b3);
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+
 }
 
-.custom-left p {
+.signin-left p {
   color: var(--secondarytwo-color);
   margin-bottom: 1.5rem;
 }
 
 /* signup page css  */
-.custom-right {
+.signup-right {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background: linear-gradient(to bottom right, var(--primary-color), #0056b3);
@@ -170,9 +170,7 @@ body {
   justify-content: center;
 }
 
-
 /* Contact us page  */
-
 .contactus-left {
   background-color: var(--primary-color);
 }
@@ -198,4 +196,11 @@ textarea.form-control {
   padding: 8px 24px;
 
 
+}
+
+
+/* our work section  */
+
+.ourwork-card{
+  
 }
