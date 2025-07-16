@@ -16,9 +16,8 @@
 .loginBtn {
     background: #121742;
 }
-new
 .sidebar .nav-link.active {
-    background-color: #121742;
+    background-color: #242a5e;
     color: white;
 
 }
@@ -193,7 +192,7 @@ p{
       border-radius: 5px;
     }
 
-    /* Nested dropdown */
+  
     .dropdown-submenu {
       position: relative;
     }
@@ -209,7 +208,7 @@ p{
       display: block;
     }
 
-    /* Bold heading in dropdown */
+   
     .dropdown-header-bold {
       font-weight: bold;
       color: #c7c8d6;
@@ -219,6 +218,7 @@ p{
     .dropdown-item:hover {
       background-color: #f8f9fa;
     }
+
 
 
     .scheme-description {
@@ -332,8 +332,8 @@ p{
       background-color: #3422ac;
       color: white;
       border: none;
-      padding: 10px;
-      border-radius: 0 8px 8px 0;
+         padding: 10px;
+    border-radius: 8px 0px 0px 8px;
       cursor: pointer;
       font-size: 18px;
       z-index: 1000;
