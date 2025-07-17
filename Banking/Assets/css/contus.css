@@ -1,0 +1,72 @@
+.contact-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  background-color: #c30050;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: #c30050;
+}
+a:hover {
+  text-decoration: underline;
+}
+.service-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  background-color: #c30050;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.4rem;
+}
+
+.card-link {
+  color: #c30050;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.social-icon {
+  font-size: 1.4rem;
+  color: #c30050;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #e2e2e2;
+}

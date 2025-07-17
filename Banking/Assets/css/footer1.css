@@ -1,0 +1,51 @@
+.footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 40px 0;
+}
+
+ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+p{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.icon{
+  color: rgb(0, 0, 0);
+}
+.image img{
+  height: 45vh;
+  width: 45vh;
+  margin-top: -40px;
+  margin-left: 7px;
+  margin-bottom: -30px;
+}
+.icon{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+}
+.last{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  background-color: rgb(255, 255, 255);
+}
+.photo1 img{
+  height: 50px;
+  width: 250px;
+  margin-left: 10px;
+}
+.photo2 img{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
