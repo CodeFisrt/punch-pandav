@@ -92,55 +92,37 @@
   </section>
 
   <!--Otp verfication page -->
-  <section>
-    <div class="container d-flex justify-content-center align-items-center min-vh-80 ">
-        <div class="row otp-main-box">
-            <div class="col-10 border p-5 m-2 min-vh-80 otp-verification-color">
-                <div class="row">
-                    <div class="col-6">
-                         <img src="img/otrp-verification-image.png">
-                    </div>
-                    <div class="col-6 border otp-verfication-inner-box pt-5 pb-5 ">
-                      <div>
-                      <div>
-                      <h2 class="text-center">
-                        OTP Verfication
-                      </h2>
-                      </div>
-                      <div>
-                      <p class="text-center">
-                        Enter OTP Code sent + 91 0000000000
-                      </p>
-                      </div>
-                      <div class="d-flex justify-content-center ">
-                        <h2 class="px-1 otp-box-color mx-1">
-                          3
-                        </h2>
-                        <h2 class="px-1 otp-box-color mx-1">
-                          4
-                        </h2>
-                        <h2 class="px-1 otp-box-color mx-1">
-                          5
-                        </h2>
-                        <h2 class="px-1 otp-box-color mx-1">
-                          3
-                        </h2>
-                      </div>
-                        <div class="text-center">
-                          <p class="text-center">Didn't Recived OTP Code </p>
-                          <a href="#" class="otp-no-resived text-primary text-decoration-none text-center">Send Code Again</a>
-                        </div>
-                        <div class="text-center">
-                        <button class="btn btn-primary px-4 py-2 fw-semibold ">Verify & Proceed</button>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
+ <!--Otp verification page-->
+<section class=" min-vh-100 d-flex align-items-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 shadow rounded-4 p-4 bg-white">
+        <div class="row align-items-center">
+          <!-- Image -->
+          <div class="col-md-6 text-center mb-4 mb-md-0">
+            <img src="img/otrp-verification-image.png" class="img-fluid" alt="OTP Illustration" />
+          </div>
+          <!-- OTP Box -->
+          <div class="col-6 border py-5">
+            <h4 class="text-center fw-bold mb-2 text-primary">OTP Verification</h4>
+            <p class="text-center text-muted mb-4">Enter OTP Code sent +91 0000000000</p>
+            <div class="d-flex justify-content-center mb-3">
+              <div class="px-2 py-2 mx-1 bg-light rounded fs-4 fw-bold text-primary border">3</div>
+              <div class="px-2 py-2 mx-1 bg-light rounded fs-4 fw-bold text-primary border">6</div>
+              <div class="px-2 py-2 mx-1 bg-light rounded fs-4 fw-bold text-primary border">4</div>
+              <div class="px-2 py-2 mx-1 bg-light rounded fs-4 fw-bold text-primary border">3</div>
             </div>
+            <p class="text-center small">Didn't receive OTP code? <a href="#" class="text-primary fw-semibold">Resend Code</a></p>
+            <div class="text-center mt-3">
+              <button class="btn btn-primary px-4 py-2 fw-semibold">Verify & Proceed</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- footer section start here -->
   <section class="footer-sec">
