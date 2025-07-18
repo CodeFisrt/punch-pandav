@@ -69,36 +69,26 @@ body {
   background-color: var(--primary-color);
   padding: 6px 24px;
 }
-.nav-toggle-btn{
+.nav-toggle-btn {
   background-color: var(--primary-color);
 }
-.nav-toggle-btn > span{
-  
+.nav-toggle-btn > span {
 }
 
-/* new */
-.swiper-slide .card {
+/* service card css  */
+.serviceslide-controls button {
+  all: unset;
+  border: none;
   background-color: var(--primary-color);
   color: var(--secondarytwo-color);
-  height: 100%;
-}
-.swiper-slide img {
-  height: 150px;
-  object-fit: cover;
-}
-
-.custom-controls button {
-  border: none;
-  background-color:var(--primary-color);
-  color:var(--secondarytwo-color);
   padding: 8px 12px;
   border-radius: 50%;
   font-size: 24px;
 }
 
 /* Ensure all swiper slides and cards stretch equally */
-.service-card-slide{
-  height: 400px;
+.service-card-slide {
+  height: 100%;
   background-color: var(--primary-color);
 }
 
@@ -106,9 +96,11 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-color);
+  color: var(--secondarytwo-color);
 }
 
-.service-card-img {
+.service-card img {
   height: 150px;
   object-fit: cover;
 }
@@ -119,8 +111,25 @@ body {
   flex-direction: column;
 }
 
-.service-card-body p:last-child {
-  margin-top: auto; /* pushes last paragraph to bottom for alignment */
+/* our work css  */
+.our-work-left-btn,
+.our-work-right-btn {
+  all: unset;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--secondarytwo-color);
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-size: 24px;
+}
+.ourwork-card .card-title{
+  color: var(--primary-color);
+}
+.ourwork-card img {
+  height: 180px;
+}
+.ourwork-card:last-child{
+  color: gray;
 }
 
 /* sign in css  */
@@ -149,11 +158,11 @@ body {
 .contactus-left {
   background-color: var(--primary-color);
 }
-.contactus-right{
+.contactus-right {
   padding: 24px 96px;
 }
 
-.contactus-right>h4 {
+.contactus-right > h4 {
   color: var(--primary-color);
 }
 .bg-light {
@@ -164,11 +173,9 @@ textarea.form-control {
   resize: none;
 }
 
-.contactus-submit-btn{
+.contactus-submit-btn {
   background-color: var(--primary-color);
   padding: 8px 24px;
-
-
 }
 /* otp  verification page */
 
