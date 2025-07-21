@@ -1,4 +1,11 @@
+body{
+    overflow-x: hidden;
+}
 /* header css */
+.GrocaLogo{
+    height: 100px;
+    width: 100px;
+}
 header{
     font-family:'Lemonada',cursive;
 }
@@ -111,6 +118,9 @@ header{
 
 /* footer css */
 .footer{
+    /* background-color: #89c74a; */
+}
+.support-block{
     background-color: #89c74a;
 }
 .footer-icon{
@@ -124,9 +134,24 @@ header{
     width: 65px;
     border-radius: 50%;
 }
+.footerimg{
+    height: 500px;
+    width: 100vw;
+}
 /* inpput box style */
 input{
     border: 1px solid #0000001a;
 }
+/* Product Style */
+.shop-action{
+    visibility: hidden;
+     transition: opacity 0.3s ease;
+}
+.product-card:hover .shop-action{
+    visibility: visible;
+}
 
+a:hover{
+    color: #89c74a;
+}
 

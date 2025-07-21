@@ -16,314 +16,112 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+   
+   </style>      
 
 </head>
 
 <body>
     <!-- Header -->
-    <section class="sticky-top z-3">
-        <div class="container-fluid mt-3 mb-3 ">
-            <div class="header-wrapper position-relative d-block ">
+    <section>
+        <header class="bg-white shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container">
 
-                <header class="header gap-3 w-100 ">
+      <!-- Left: Logo -->
+      <a class="navbar-brand fw-bold text-success d-flex align-items-center" href="#">
+        <img src="Img/logo.webp" alt="GrocaLogo"  class="me-2">
+      
+      </a>
 
-                    <!-- left header logo -->
-                    <h1 class="header-heading me-auto justify-content-start">
-                        <a href="" class="d-inline-flex justify-content-start">
-                            <img src="Img/logo.webp" alt="HeaderLogo" class="h-auto w-auto">
-                        </a>
-                    </h1>
+      <!-- Hamburger for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-                    <!-- header center menu item -->
-                    <div class="header-inline-menu  d-flex ms-5">
-                        <div class="row d-block">
-                            <nav class="d-flex align-item-center position-relative">
-                                <ul class="list-unstyled position-relative p-0 m-0 fs-6">
-                                    <li class="text-menu position-relative p-0 d-inline-flex my-0 mx-3">
-                                        <a href="#"
-                                            class="menu text-decoration-none position-relative text-dark fw-bold">
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li class="position-relative p-0 d-inline-flex my-0 mx-3">
-                                        <a href=""
-                                            class="menu text-decoration-none position-relative text-dark fw-bold">
-                                            Shop
-                                        </a>
-                                    </li>
-
-                                    <li class="position-relative p-0 d-inline-flex my-0 mx-3">
-                                        <div class="dropdown">
-                                            <a href=""
-                                                class="dropdown-toggle menu text-decoration-none position-relative text-dark fw-bold"
-                                                id="productwithcategory" data-bs-toggle="dropdown"
-                                                aria-expanded="false">
-                                                Best Sellers
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <div class="dropdown-item d-flex p-5">
-                                                    <li class="p-0 m-2">
-                                                        <div class="category">
-                                                            <a class="heading rounded p-2 m-2 text-decoration-none text-white d-block"
-                                                                href="#">Fruits</a>
-                                                        </div>
-                                                        <div class="inner-list">
-                                                            <ul class="m-0 ps-5 list-unstyled">
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Apple</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Orange</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Plum</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Jamun
-                                                                        Fruit</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Cherry</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Elderberry</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Watermelon</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-
-
-
-                                                    <li class="p-0  m-2">
-                                                        <div class="category">
-                                                            <a class="heading rounded p-2 m-2 text-decoration-none text-white d-block"
-                                                                href="#">Vegetables</a>
-                                                        </div>
-                                                        <div class="inner-list">
-                                                            <ul class="m-0 ps-5 list-unstyled">
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Beetroot</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Broccoli</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Capsicum</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Potato</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Coriander</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Parsley</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Tomato</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-
-
-
-                                                    <li class="p-0 m-2">
-                                                        <div class="category">
-                                                            <a class="heading rounded p-2 m-2 text-decoration-none text-white d-block"
-                                                                href="#">Grain Foods</a>
-                                                        </div>
-                                                        <div class="inner-list">
-                                                            <ul class="m-0 ps-5 list-unstyled">
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Badam</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Brown
-                                                                        Rice</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Green
-                                                                        Peas</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Horse
-                                                                        Gram</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="" class="text-dark text-decoration-none">TM
-                                                                        Rice</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Wheats</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Parsley</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-
-
-                                                    <li class="p-0 m-2">
-                                                        <div class="category">
-                                                            <a class="heading rounded p-2 m-2 text-decoration-none text-white d-block"
-                                                                href="#">Meats</a>
-                                                        </div>
-                                                        <div class="inner-list">
-                                                            <ul class="m-0 ps-5 list-unstyled">
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Chicken
-                                                                        Brest</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Chicken
-                                                                        Boneless</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Egg
-                                                                        Curry</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Fresh
-                                                                        Meat</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Fish
-                                                                        Curry</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Mushroom</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href=""
-                                                                        class="text-dark text-decoration-none">Meat
-                                                                        Curry</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                </div>
-                                            </ul>
-                                        </div>
-                                    </li>
-
-                                    <li class="position-relative p-0 d-inline-flex my-0 mx-3">
-                                        <a href=""
-                                            class="menu text-decoration-none position-relative text-dark fw-bold">
-                                            Deal Of The Day
-                                        </a>
-                                    </li>
-                                    <li class="position-relative p-0 d-inline-flex my-0 mx-3">
-                                        <a href="aboutus.html"
-                                            class="menu text-decoration-none position-relative text-dark fw-bold">
-                                            About Us
-                                        </a>
-                                    </li>
-                                    <li class="position-relative p-0 d-inline-flex my-0 mx-3">
-                                        <a href=""
-                                            class="menu text-decoration-none position-relative text-dark fw-bold">
-                                            Contact Us
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <!-- Header icons right side-->
-                    <div class="header-icon d-flex justify-content-end">
-                        <a href="Registration.html" class="align-item-center justify-content-center text-dark mx-3">
-                            <i class="fa-solid fa-user"></i>
-                        </a>
-                        <a href="" class="align-item-center justify-content-center text-dark mx-3">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                        <a href="" class="align-item-center justify-content-center text-dark mx-3">
-                            <i class="fa-solid fa-heart"></i>
-                        </a>
-
-                    </div>
-
-                </header>
-
-                <!-- All Categories dropdown left side-->
-                <div class="header-search-wrapper d-flex align-item-center w-100 pb-3 mx-0 my-3">
-                    <div class="cat-drop px-3 py-2">
-                    <div class="dropdown">
-                        <div class="drop-content">
-                        <button class="btn bg-success  dropdown-toggle fs-6 border border-0  bg-white" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            All Categories</button>
-                            </div>
-                        <ul class="dropdown-menu  m-0 p-0 list-unstyled ">
-                            <li class="border-bottom">
-                                <a href="" class="dropdown-item text-decoration-none text-dark">Fruits</a>
-                            </li>
-                            <li class="border-bottom">
-                                <a href="" class="dropdown-item text-decoration-none text-dark">Vegetables</a>
-                            </li>
-                            <li class="border-bottom">
-                                <a href="" class="dropdown-item text-decoration-none text-dark">Flours</a>
-                            </li>
-                            <li class="border-bottom">
-                                <a href="" class="dropdown-item text-decoration-none text-dark">Cookies</a>
-                            </li>
-                            <li class="border-bottom">
-                                <a href="" class="dropdown-item text-decoration-none text-dark">Meat</a>
-                            </li>
-                        </ul>
-                    </div>
-                    </div>
-
-                    <!-- SerachBar right side -->
-                    <div class="search-modal-form w-100 position-relative ms-3">
-                        <form action="" class="w-100 position-relative ms-3 mt-0 d-block">
-                            <div class="field d-flex position-relative w-100">
-                                <input type="text" placeholder="Search"
-                                    class="search-input top-50 left-50  w-100  p-2 border border-1">
-                                <div class="search-btn d-block">
-                                    <button
-                                        class="searchbtn search-icon d-flex end-0 top-50 h-100 w-100 border border-0">
-                                        <i class="fa-solid fa-magnifying-glass text-white p-3"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+      <!-- Center: Navigation Menu -->
+      <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+        <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 text-center">
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="product.html">Shop</a>
+          </li>
+          <!-- Best Sellers Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" id="bestSellersDropdown" role="button" data-bs-toggle="dropdown">
+              Best Sellers
+            </a>
+            <ul class="dropdown-menu p-3" aria-labelledby="bestSellersDropdown" style="width: 600px;">
+              <div class="row">
+                <!-- Column: Fruits -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Fruits</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Apple</a></li>
+                    <li><a class="dropdown-item" href="#">Orange</a></li>
+                    <li><a class="dropdown-item" href="#">Plum</a></li>
+                    <li><a class="dropdown-item" href="#">Jamun</a></li>
+                  </ul>
                 </div>
+                <!-- Column: Vegetables -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Vegetables</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Broccoli</a></li>
+                    <li><a class="dropdown-item" href="#">Tomato</a></li>
+                    <li><a class="dropdown-item" href="#">Potato</a></li>
+                    <li><a class="dropdown-item" href="#">Coriander</a></li>
+                  </ul>
+                </div>
+                <!-- Column: Grains -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Grain Foods</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Wheat</a></li>
+                    <li><a class="dropdown-item" href="#">Rice</a></li>
+                    <li><a class="dropdown-item" href="#">Peas</a></li>
+                    <li><a class="dropdown-item" href="#">Badam</a></li>
+                  </ul>
+                </div>
+                <!-- Column: Meats -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Meats</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Chicken</a></li>
+                    <li><a class="dropdown-item" href="#">Fish</a></li>
+                    <li><a class="dropdown-item" href="#">Mutton</a></li>
+                    <li><a class="dropdown-item" href="#">Egg Curry</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </li>
 
-            </div>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="product.html">Deal Of The Day</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Icons -->
+      <div class="d-flex align-items-center gap-3 ms-auto">
+        <a href="Registration.html" class="text-dark"><i class="fa-solid fa-user"></i></a>
+        <a href="#" class="text-dark"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" class="text-dark"><i class="fa-solid fa-heart"></i></a>
+      </div>
+
+    </div>
+  </nav>
+</header>
     </section>
     <!-- SlideShow -->
     <section>
@@ -375,12 +173,12 @@
                         </div>
                         <button class="carousel-control-prev" type="button"
                             data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button"
                             data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                            <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
@@ -388,94 +186,80 @@
             </div>
         </div>
     </section>
-    <!-- Footer -->
-    <section>
-        <div class="container">
-            <div class="support-block">
-                <div class="content px-5">
-                    <div class="row footer rounded">
-                        <slider-component class="d-block position-relative">
-                            <ul class="d-flex gap-0 px-5 list-unstyled">
-                                <!-- shipping -->
-                                <li class="py-5 w-100">
-                                    <div class="support-block-cart d-flex gap-3 align-item-center">
-                                        <div
-                                            class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-truck footer-icon"></i>
-                                        </div>
-                                        <div class="support-block-card_nfo pt-0 text-align-start">
-                                            <h3 class="mt-0 text-white fw-bold fs-3">free shipping</h3>
-                                            <div class="rte mt-0 text-align-start">
-                                                <p class="mt-0 mb-0 text-white fs-6">Worldwide</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- contact -->
-                                <li class="py-5 w-100">
-                                    <div class="support-block-cart d-flex gap-3 align-item-center">
-                                        <div
-                                            class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-phone footer-icon"></i>
-                                        </div>
-                                        <div class="support-block-card_nfo pt-0 text-align-start">
-                                            <h3 class="mt-0 text-white fw-bold fs-3">Helpline</h3>
-                                            <div class="rte mt-0 text-align-start">
-                                                <p class="mt-0 mb-0 text-white fs-6">+(000)123-4567</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- 24*7 support -->
-                                <li class="py-5 w-100">
-                                    <div class="support-block-cart d-flex gap-3 align-item-center">
-                                        <div
-                                            class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-headphones-simple footer-icon"></i>
-                                        </div>
-                                        <div class="support-block-card_nfo pt-0 text-align-start">
-                                            <h3 class="mt-0 text-white fw-bold fs-3">24x7 support</h3>
-                                            <div class="rte mt-0 text-align-start">
-                                                <p class="mt-0 mb-0 text-white fs-6">Free For Customers</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- returns -->
-                                <li class="py-5 w-100">
-                                    <div class="support-block-cart d-flex gap-3 align-item-center">
-                                        <div
-                                            class="icon-image d-flex align-item-center justify-content-center bg-white ">
-                                            <i class="fa-solid fa-right-left footer-icon"></i>
-                                        </div>
-                                        <div class="support-block-card_nfo pt-0 text-align-start">
-                                            <h3 class="mt-0 text-white fw-bold fs-3">returns</h3>
-                                            <div class="rte mt-0 text-align-start">
-                                                <p class="mt-0 mb-0 text-white fs-6">30 Days Free Exchanges</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </slider-component>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     <!-- footer -->
-    <!-- <footer class="banner-footer footer position-relative border-top-0 pt-5 pb-0 ">
-        <div class="banner_media position-static">
-            <img src="Img/footerimg.webp" alt="footerbgimg">
+    <section>
+<footer class="bg-dark text-white pt-5 pb-3 mt-5 position-relative overflow-hidden">
+  <!-- Background Image -->
+  <img src="Img/footerimg.webp" alt="Footer Background" class="position-absolute top-0 start-0 w-100 h-100 opacity-10" style="object-fit: cover; z-index: 0;">
+  <div class="container position-relative" style="z-index: 1;">
+    <div class="row g-4">
+      <!--Logo & Address -->
+      <div class="col-md-3">
+        <div class="mb-3">
+          <img src="Img/logo.webp" alt="Logo" style="width: 60px;">
         </div>
-        <div class="footer-content-top">
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-location-dot me-2 mt-1"></i>
+            <address class="mb-0">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</address>
+          </li>
+          <li class="d-flex align-items-center mb-2">
+            <i class="fa-solid fa-phone me-2"></i>
+            <span>423-845-6570</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fa-solid fa-envelope me-2"></i>
+            <a href="mailto:random@gmail.com" class="text-white text-decoration-none">random@gmail.com</a>
+          </li>
+        </ul>
+      </div>
 
-        </div>
-        <div class="footer-content-bottom">
+      <!-- Help -->
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Help</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Search</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Help</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Information</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Privacy Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block">Shipping Info</a></li>
+        </ul>
+      </div>
 
-        </div>
+      <!--Support -->
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Support</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Contact</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">About Us</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Careers</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Refund & Returns</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block">Deliveries</a></li>
+        </ul>
+      </div>
 
-      </footer>  -->
+      <!-- Information -->
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Information</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Search Terms</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Advanced Search</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Helps & FAQs</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Store Location</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block">Orders & Returns</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="border-top border-secondary my-4">
+
+    <!-- bottom -->
+    <p class="text-center mb-0 small">&copy; 2025 GROCA Grocery Mart. All rights reserved.</p>
+  </div>
+</footer>
+    </section>
     <!-- script link -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -486,3 +270,4 @@
 </body>
 
 </html>
+

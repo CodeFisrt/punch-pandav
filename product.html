@@ -17,32 +17,373 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+     <!-- header -->
+       <section>
+        <header class="bg-white shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container">
+
+      <!-- Left: Logo -->
+      <a class="navbar-brand fw-bold text-success d-flex align-items-center" href="#">
+        <img src="Img/logo.webp" alt="GrocaLogo"  class="me-2">
+      
+      </a>
+
+      <!-- Hamburger for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Center: Navigation Menu -->
+      <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+        <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-3 text-center">
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="product.html">Shop</a>
+          </li>
+          <!-- Best Sellers Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" id="bestSellersDropdown" role="button" data-bs-toggle="dropdown">
+              Best Sellers
+            </a>
+            <ul class="dropdown-menu p-3" aria-labelledby="bestSellersDropdown" style="width: 600px;">
+              <div class="row">
+                <!-- Column: Fruits -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Fruits</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Apple</a></li>
+                    <li><a class="dropdown-item" href="#">Orange</a></li>
+                    <li><a class="dropdown-item" href="#">Plum</a></li>
+                    <li><a class="dropdown-item" href="#">Jamun</a></li>
+                  </ul>
+                </div>
+                <!-- Column: Vegetables -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Vegetables</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Broccoli</a></li>
+                    <li><a class="dropdown-item" href="#">Tomato</a></li>
+                    <li><a class="dropdown-item" href="#">Potato</a></li>
+                    <li><a class="dropdown-item" href="#">Coriander</a></li>
+                  </ul>
+                </div>
+                <!-- Column: Grains -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Grain Foods</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Wheat</a></li>
+                    <li><a class="dropdown-item" href="#">Rice</a></li>
+                    <li><a class="dropdown-item" href="#">Peas</a></li>
+                    <li><a class="dropdown-item" href="#">Badam</a></li>
+                  </ul>
+                </div>
+                <!-- Column: Meats -->
+                <div class="col-md-3">
+                  <h6 class="fw-bold">Meats</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="dropdown-item" href="#">Chicken</a></li>
+                    <li><a class="dropdown-item" href="#">Fish</a></li>
+                    <li><a class="dropdown-item" href="#">Mutton</a></li>
+                    <li><a class="dropdown-item" href="#">Egg Curry</a></li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="product.html">Deal Of The Day</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold text-dark" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Icons -->
+      <div class="d-flex align-items-center gap-3 ms-auto">
+        <a href="Registration.html" class="text-dark"><i class="fa-solid fa-user"></i></a>
+        <a href="#" class="text-dark"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" class="text-dark"><i class="fa-solid fa-heart"></i></a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+    </section>
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <div class="card">
-                        <img src="Img/productappleimg.webp" alt="productimg">
-                        <div class="card-content text-align-center">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h4 class="productname">Apple</h4>
+                <div class="col-lg-12">
+                    <ul class="products-list list-unstyled d-flex mt-3">
+                        <!-- 1st product -->
+                        <li class="product w-25 me-4">
+                            <div class="product-card border rounded">
+                                <div class="product-img position-relative px-3">
+                                    <a href="">
+                                        <img src="Img/strawberryimg.png" class="w-100" alt="strawberryimg">
+                                    </a>
+                                    <div class="shop-action  position-absolute top-0 mt-3 end-0">
+                                        <ul class="list-unstyled d-block">
+                                            <li class="cart mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span class="bg-success p-2 rounded">Add to cart</span> -->
+                                                     <i class="fa-solid fa-cart-shopping text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                            <li class="wishlist mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span>Add to wishlist</span> -->
+                                                    <i class="fa-regular fa-heart text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-caption">
+                                    <div class="product-tags d-flex justify-content-center m-2">
+                                        <a href="" class="text-decoration-none text-secondary ">Crop,</a>
+                                        <a href="" class="text-decoration-none text-secondary ">Organic</a>
+                                    </div>
+                                    <h4 class="product-title d-flex justify-content-center m-2">Strawberry</h4>
+                                    <div class="review-count d-flex justify-content-center m-2">
+                                        <div class="rating ">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="price d-flex justify-content-center m-2">
+                                        <span>$12.00</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-details d-flex justify-content-between">
-                                <span class="fw-bold">Price: 120</span>
-                                <span class="fw-bold">quantity: 2</span>
+                        </li>
+                        <!-- 2nd product -->
+                        <li class="product w-25 me-4">
+                            <div class="product-card border rounded">
+                                <div class="product-img position-relative px-3">
+                                    <a href="">
+                                        <img src="Img/carrotimg.png" class="w-100" alt="strawberryimg">
+                                    </a>
+                                    <div class="shop-action  position-absolute top-0 mt-3 end-0">
+                                        <ul class="list-unstyled d-block">
+                                            <li class="cart mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span class="bg-success p-2 rounded">Add to cart</span> -->
+                                                     <i class="fa-solid fa-cart-shopping text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                            <li class="wishlist mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span>Add to wishlist</span> -->
+                                                    <i class="fa-regular fa-heart text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-caption">
+                                    <div class="product-tags d-flex justify-content-center m-2">
+                                        <a href="" class="text-decoration-none text-secondary ">Vegetables </a>
+                                        <a href="" class="text-decoration-none text-secondary ">Winter</a>
+                                    </div>
+                                    <h4 class="product-title d-flex justify-content-center m-2">Organic Carrot</h4>
+                                    <div class="review-count d-flex justify-content-center m-2">
+                                        <div class="rating ">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="price d-flex justify-content-center m-2">
+                                        <span>$20.12</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="order-btn mt-2">
-                                <button class="btn btn-success rounded border-0">Order Now</button>
+                        </li>
+                        <!-- 3rd product -->
+                        <li class="product w-25 me-4">
+                            <div class="product-card border rounded">
+                                <div class="product-img position-relative px-3">
+                                    <a href="">
+                                        <img src="Img/grepsimg.png" class="w-100" alt="strawberryimg">
+                                    </a>
+                                    <div class="shop-action  position-absolute top-0 mt-3 end-0">
+                                        <ul class="list-unstyled d-block">
+                                            <li class="cart mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span class="bg-success p-2 rounded">Add to cart</span> -->
+                                                     <i class="fa-solid fa-cart-shopping text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                            <li class="wishlist mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span>Add to wishlist</span> -->
+                                                    <i class="fa-regular fa-heart text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-caption">
+                                    <div class="product-tags d-flex justify-content-center m-2">
+                                        <a href="" class="text-decoration-none text-secondary ">Fruits</a>
+                                        <a href="" class="text-decoration-none text-secondary ">Juicy</a>
+                                    </div>
+                                    <h4 class="product-title d-flex justify-content-center m-2">Fresh Red Seedless</h4>
+                                    <div class="review-count d-flex justify-content-center m-2">
+                                        <div class="rating ">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="price d-flex justify-content-center m-2">
+                                        <span>$78.00</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        </div>
-                    </div>
+                        </li>
+                        <!-- 4th product -->
+                         <li class="product w-25 me-4">
+                            <div class="product-card border rounded">
+                                <div class="product-img position-relative px-3">
+                                    <a href="">
+                                        <img src="Img/sweetcorn.png" class="w-100" alt="strawberryimg">
+                                    </a>
+                                    <div class="shop-action  position-absolute top-0 mt-3 end-0">
+                                        <ul class="list-unstyled d-block">
+                                            <li class="cart mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span class="bg-success p-2 rounded">Add to cart</span> -->
+                                                     <i class="fa-solid fa-cart-shopping text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                            <li class="wishlist mb-3">
+                                                <a href="" class="addtocart text-decoration-none text-white rounded p-1">
+                                                    <!-- <span>Add to wishlist</span> -->
+                                                    <i class="fa-regular fa-heart text-white  p-2 rounded-circle bg-success"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="product-caption">
+                                    <div class="product-tags d-flex justify-content-center m-2">
+                                        <a href="" class="text-decoration-none text-secondary ">Crop,</a>
+                                        <a href="" class="text-decoration-none text-secondary ">Organic</a>
+                                    </div>
+                                    <h4 class="product-title d-flex justify-content-center m-2">Organic Sweet Corn</h4>
+                                    <div class="review-count d-flex justify-content-center m-2">
+                                        <div class="rating ">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="price d-flex justify-content-center m-2">
+                                        <span>$12.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
                 </div>
-                <div class="col-4"></div>
-                <div class="col-4"></div>
             </div>
         </div>
+    </section>
+    <!-- footer -->
+     <section>
+<footer class="bg-dark text-white pt-5 pb-3 mt-5 position-relative overflow-hidden">
+  <!-- Background Image -->
+  <img src="Img/footerimg.webp" alt="Footer Background" class="position-absolute top-0 start-0 w-100 h-100 opacity-10" style="object-fit: cover; z-index: 0;">
+  <div class="container position-relative" style="z-index: 1;">
+    <div class="row g-4">
+      <!--Logo & Address -->
+      <div class="col-md-3">
+        <div class="mb-3">
+          <img src="Img/logo.webp" alt="Logo" style="width: 60px;">
+        </div>
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-location-dot me-2 mt-1"></i>
+            <address class="mb-0">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</address>
+          </li>
+          <li class="d-flex align-items-center mb-2">
+            <i class="fa-solid fa-phone me-2"></i>
+            <span>423-845-6570</span>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fa-solid fa-envelope me-2"></i>
+            <a href="mailto:random@gmail.com" class="text-white text-decoration-none">random@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Help -->
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Help</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Search</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Help</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Information</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Privacy Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block">Shipping Info</a></li>
+        </ul>
+      </div>
+
+      <!--Support -->
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Support</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Contact</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">About Us</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Careers</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Refund & Returns</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block">Deliveries</a></li>
+        </ul>
+      </div>
+
+      <!-- Information -->
+      <div class="col-md-3">
+        <h5 class="fw-bold mb-3">Information</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Search Terms</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Advanced Search</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Helps & FAQs</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block mb-2">Store Location</a></li>
+          <li><a href="#" class="text-white text-decoration-none d-block">Orders & Returns</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="border-top border-secondary my-4">
+
+    <!-- bottom -->
+    <p class="text-center mb-0 small">&copy; 2025 GROCA Grocery Mart. All rights reserved.</p>
+  </div>
+</footer>
     </section>
 </body>
 </html>
