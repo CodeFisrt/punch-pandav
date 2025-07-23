@@ -38,7 +38,7 @@ font-family: 'Infinite-16', sans-serif;
 
 .common_btn {
 
-  background-color: #218838 !important;
+  background-color: #118562 !important;
   color: #000 !important;
 }
 
@@ -142,19 +142,27 @@ width:200px;
   background-color: darkgreen;
 }
 
-/* become our volenteer */
+/*  volenteer first */
 .volunteer-section {
   min-height: 100vh;
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0 0 25px rgba(0,0,0,0.3);
 }
-
-
 .volunteer-section .btn:hover {
-  background-color: #218838 !important;
+  background-color: #f77f00 !important;
   transform: scale(1.05);
   transition: 0.3s ease;
+}
+.volenteer_first{
+  background-image: url(../images/ngo-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;  
+}
+.volenteer_first_1{
+  background-color: rgba(0,0,0,0.6);
 }
 /* make a movement */
 .icon-circle {
