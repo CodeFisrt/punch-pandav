@@ -90,6 +90,7 @@ body {
 .service-card-slide {
   height: 100%;
   background-color: var(--primary-color);
+  
 }
 
 .service-card {
