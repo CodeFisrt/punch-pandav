@@ -38,8 +38,11 @@ font-family: 'Infinite-16', sans-serif;
 
 .common_btn {
 
+  
+ /* border: #000 1px solid!important; */
   background-color: #118562 !important;
-  color: #000 !important;
+  color: #ffffff !important;
+  border: #118562;
 }
 
 .common_btn:hover {
@@ -63,19 +66,6 @@ font-family: 'Infinite-16', sans-serif;
   overflow: hidden;
   z-index: 2;
 }
-
-.common_btn {
-  background-color: #28a745;
-  color: #fff;
-  border-radius: 8px;
-  transition: 0.3s ease;
-}
-
-.common_btn:hover {
-  background-color: #218838;
-  transform: translateY(-2px);
-}
-
 
 /* footer */
 .footer {
@@ -145,7 +135,7 @@ width:200px;
   transition: 0.3s ease;
 }
 .volenteer_first{
-  background-image: url(../images/ngo-7.jpg);
+  background-image: url(../images/volenteer_4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -153,6 +143,9 @@ width:200px;
 }
 .volenteer_first_1{
   background-color: rgba(27, 27, 27, 0.6);
+}
+.volenteer_h1{
+  color: #f77f00;
 }
 /* make a movement */
 .icon-circle {
@@ -192,6 +185,7 @@ width:200px;
   background-color:#1b5b4e;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  
 }
 
 .social-icons i {
