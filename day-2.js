@@ -60,4 +60,20 @@
 //         default:
 //         console.log("Sunday");
 //         break;
+
+
+// var temperature = 15;
+// var itsRaining = true;
+// if (temperature < 10 && itsRaining) {
+// console.log("Wear a heavy jacket and carry an umbrella.");
+// }
+// else if (temperature < 10 && itsRaining) {
+// console.log("Wear a heavy jacket.");
+// }else if (temperature >= 10 && temperature <= 20 && itsRaining) {
+// console.log("Wear a sweater and carry an umbrella.");
+// }
+// else if (temperature > 20 && itsRaining) {
+// console.log("Wear light clothes and sunglasses.");
+
+
 // }
