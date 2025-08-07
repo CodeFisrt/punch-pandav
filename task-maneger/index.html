@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2 id="welcome">Welcome!</h2>
+
+  <div id="login">
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="saveName()">Start</button>
+  </div>
+
+  <div id="mainApp" style="display: none;">
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
