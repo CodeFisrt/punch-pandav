@@ -1,0 +1,38 @@
+<h1>Welcome to data Binding</h1>
+<h1>{{title }}</h1>
+<h2>{{array[3]}}</h2>
+<h2>{{object.name}}</h2>
+<h2>{{isDisabled}}</h2>
+<img [src]="imgUrl" alt="">
+<h1 [style]="color">Gorakh Kharat</h1>
+<button (click)="testEvent()">Click ME</button>
+<input type="text" name="username"  [(ngModel)]="username">
+<h1>{{username}}</h1>
+
+<div class="row">
+    <div class="col-4">
+        <div class="card p-3">
+            <!-- Property Binding -->
+            <img [src]="student.imageUrl" alt="Student Image" class="profile-img img-fluid">
+          
+            <!-- Interpolation -->
+            <h2 class="py-2">Name: {{ student.name }}</h2>
+            <p>Age: {{ student.age }}</p>
+            <p>Course: {{ student.course }}</p>
+          
+            <!-- Two-way Binding -->
+            <label>Edit Course: </label>
+            <input class="py-2" type="text" [(ngModel)]="student.course">
+          
+            <!-- Event Binding -->
+            <br><br>
+            <button (click)="changeName()">Change Name</button>
+          </div>
+    </div>
+    <div class="col-4">
+        <input type="text" #usernameInput (keyup)="inputVal(usernameInput.value)" >
+        <h2>{{userName}}</h2>
+    </div>
+</div>
+
+  

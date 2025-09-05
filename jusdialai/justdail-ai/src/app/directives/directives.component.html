@@ -1,0 +1,32 @@
+<!-- <p>directives works!</p>
+<h1 *ngIf="showElement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, expedita!</h1>
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul> -->
+<button (click)="toggleElement()" class="btn btn-primary my-3">Toggle Card View</button>
+
+<div class="container" *ngIf="showElement">
+  <div class="row">
+    <div class="col-4" *ngFor="let posts of postData">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{posts.id}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{posts.title}}</h6>
+          <p class="card-text">{{posts.body}}</p> 
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<table class="table  table-striped">
+  <tbody>
+      <tr *ngFor="let posts of postData">
+        <td>{{posts.id}}</td>
+        <td>{{posts.title }}</td>
+        <td>{{posts.body}}</td>
+
+      </tr>
+  </tbody>
+</table>
